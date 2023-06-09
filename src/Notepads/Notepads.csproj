@@ -11,7 +11,7 @@
     <AssemblyName>Notepads</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.22000.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
@@ -448,7 +448,90 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <PRIResource Include="Strings\**\*.resw" />
+    <PRIResource Include="Strings\ar-YE\Manifest.resw" />
+    <PRIResource Include="Strings\ar-YE\Resources.resw" />
+    <PRIResource Include="Strings\ar-YE\Settings.resw" />
+    <PRIResource Include="Strings\bg-BG\Manifest.resw" />
+    <PRIResource Include="Strings\bg-BG\Resources.resw" />
+    <PRIResource Include="Strings\bg-BG\Settings.resw" />
+    <PRIResource Include="Strings\cs-CZ\Manifest.resw" />
+    <PRIResource Include="Strings\cs-CZ\Resources.resw" />
+    <PRIResource Include="Strings\cs-CZ\Settings.resw" />
+    <PRIResource Include="Strings\de-CH\Manifest.resw" />
+    <PRIResource Include="Strings\de-CH\Resources.resw" />
+    <PRIResource Include="Strings\de-CH\Settings.resw" />
+    <PRIResource Include="Strings\de-DE\Manifest.resw" />
+    <PRIResource Include="Strings\de-DE\Resources.resw" />
+    <PRIResource Include="Strings\de-DE\Settings.resw" />
+    <PRIResource Include="Strings\en-US\Manifest.resw" />
+    <PRIResource Include="Strings\en-US\Resources.resw" />
+    <PRIResource Include="Strings\en-US\Settings.resw" />
+    <PRIResource Include="Strings\es-ES\Manifest.resw" />
+    <PRIResource Include="Strings\es-ES\Resources.resw" />
+    <PRIResource Include="Strings\es-ES\Settings.resw" />
+    <PRIResource Include="Strings\fi-FI\Manifest.resw" />
+    <PRIResource Include="Strings\fi-FI\Resources.resw" />
+    <PRIResource Include="Strings\fi-FI\Settings.resw" />
+    <PRIResource Include="Strings\fr-FR\Manifest.resw" />
+    <PRIResource Include="Strings\fr-FR\Resources.resw" />
+    <PRIResource Include="Strings\fr-FR\Settings.resw" />
+    <PRIResource Include="Strings\hi-IN\Manifest.resw" />
+    <PRIResource Include="Strings\hi-IN\Resources.resw" />
+    <PRIResource Include="Strings\hi-IN\Settings.resw" />
+    <PRIResource Include="Strings\hr-HR\Manifest.resw" />
+    <PRIResource Include="Strings\hr-HR\Resources.resw" />
+    <PRIResource Include="Strings\hr-HR\Settings.resw" />
+    <PRIResource Include="Strings\hu-HU\Manifest.resw" />
+    <PRIResource Include="Strings\hu-HU\Resources.resw" />
+    <PRIResource Include="Strings\hu-HU\Settings.resw" />
+    <PRIResource Include="Strings\it-IT\Manifest.resw" />
+    <PRIResource Include="Strings\it-IT\Resources.resw" />
+    <PRIResource Include="Strings\it-IT\Settings.resw" />
+    <PRIResource Include="Strings\ja-JP\Manifest.resw" />
+    <PRIResource Include="Strings\ja-JP\Resources.resw" />
+    <PRIResource Include="Strings\ja-JP\Settings.resw" />
+    <PRIResource Include="Strings\ka-GE\Manifest.resw" />
+    <PRIResource Include="Strings\ka-GE\Resources.resw" />
+    <PRIResource Include="Strings\ka-GE\Settings.resw" />
+    <PRIResource Include="Strings\ko-KR\Manifest.resw" />
+    <PRIResource Include="Strings\ko-KR\Resources.resw" />
+    <PRIResource Include="Strings\ko-KR\Settings.resw" />
+    <PRIResource Include="Strings\or-IN\Manifest.resw" />
+    <PRIResource Include="Strings\or-IN\Resources.resw" />
+    <PRIResource Include="Strings\or-IN\Settings.resw" />
+    <PRIResource Include="Strings\pl-PL\Manifest.resw" />
+    <PRIResource Include="Strings\pl-PL\Resources.resw" />
+    <PRIResource Include="Strings\pl-PL\Settings.resw" />
+    <PRIResource Include="Strings\pt-BR\Manifest.resw" />
+    <PRIResource Include="Strings\pt-BR\Resources.resw" />
+    <PRIResource Include="Strings\pt-BR\Settings.resw" />
+    <PRIResource Include="Strings\pt-PT\Manifest.resw" />
+    <PRIResource Include="Strings\pt-PT\Resources.resw" />
+    <PRIResource Include="Strings\pt-PT\Settings.resw" />
+    <PRIResource Include="Strings\ru-RU\Manifest.resw" />
+    <PRIResource Include="Strings\ru-RU\Resources.resw" />
+    <PRIResource Include="Strings\ru-RU\Settings.resw" />
+    <PRIResource Include="Strings\sr-cyrl\Manifest.resw" />
+    <PRIResource Include="Strings\sr-cyrl\Resources.resw" />
+    <PRIResource Include="Strings\sr-cyrl\Settings.resw" />
+    <PRIResource Include="Strings\sr-Latn\Manifest.resw" />
+    <PRIResource Include="Strings\sr-Latn\Resources.resw" />
+    <PRIResource Include="Strings\sr-Latn\Settings.resw" />
+    <PRIResource Include="Strings\tr-TR\Manifest.resw" />
+    <PRIResource Include="Strings\tr-TR\Resources.resw" />
+    <PRIResource Include="Strings\tr-TR\Settings.resw" />
+    <PRIResource Include="Strings\uk-UA\Manifest.resw" />
+    <PRIResource Include="Strings\uk-UA\Resources.resw" />
+    <PRIResource Include="Strings\uk-UA\Settings.resw" />
+    <PRIResource Include="Strings\vi-VN\Manifest.resw" />
+    <PRIResource Include="Strings\vi-VN\Resources.resw" />
+    <PRIResource Include="Strings\vi-VN\Settings.resw" />
+    <PRIResource Include="Strings\zh-CN\Manifest.resw" />
+    <PRIResource Include="Strings\zh-CN\Resources.resw" />
+    <PRIResource Include="Strings\zh-CN\Settings.resw" />
+    <PRIResource Include="Strings\zh-TW\Manifest.resw" />
+    <PRIResource Include="Strings\zh-TW\Resources.resw" />
+    <PRIResource Include="Strings\zh-TW\Settings.resw" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Package.targets" />

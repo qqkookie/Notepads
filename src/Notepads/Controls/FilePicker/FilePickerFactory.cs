@@ -39,7 +39,7 @@
         {
             var fileOpenPicker = new FileOpenPicker
             {
-                SuggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.DocumentsLibrary
+                // SuggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.DocumentsLibrary
             };
 
             fileOpenPicker.FileTypeFilter.Add("*"); // All files
@@ -56,7 +56,7 @@
         {
             FileSavePicker savePicker = new FileSavePicker
             {
-                SuggestedStartLocation = PickerLocationId.DocumentsLibrary
+                // SuggestedStartLocation = PickerLocationId.DocumentsLibrary
             };
 
             var fileName = textEditor.EditingFileName ?? textEditor.FileNamePlaceholder;

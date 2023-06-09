@@ -296,6 +296,17 @@
             }
         }
 
+        private static bool _newFileSuffix;
+        public static bool NewFileSuffix
+        {
+            get => _newFileSuffix;
+            set
+            {
+                _newFileSuffix = value;
+                ApplicationSettingsStore.Write(SettingsKey.EditorNewFileSuffixBool, value);
+            }
+        }
+
         public static void Initialize()
         {
             InitializeFontSettings();
@@ -548,6 +559,7 @@
                 _editorFontSize = 14;
             }
 
+            /*
             if (ApplicationSettingsStore.Read(SettingsKey.EditorFontStyleStr) is string fontStyleStr &&
                 Enum.TryParse(typeof(FontStyle), fontStyleStr, out var fontStyle))
             {
@@ -569,6 +581,7 @@
             {
                 _editorFontWeight = FontWeights.Normal;
             }
+            */
         }
 
         private static void InitializeAppOpeningPreferencesSettings()
@@ -580,6 +593,15 @@
             else
             {
                 _alwaysOpenNewWindow = false;
+            }
+
+            if (ApplicationSettingsStore.Read(SettingsKey.EditorNewFileSuffixBool) is bool newFileSuffix)
+            {
+                _newFileSuffix = newFileSuffix;
+            }
+            else
+            {
+                _newFileSuffix = true;
             }
         }
 

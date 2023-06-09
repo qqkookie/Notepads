@@ -36,5 +36,6 @@
         internal static string EditorHighlightMisspelledWordsBool = "EditorHighlightMisspelledWordsBool";
         internal static string EditorDefaultDisplayLineNumbersBool = "EditorDefaultDisplayLineNumbersBool";
         internal static string EditorEnableSmartCopyBool = "EditorEnableSmartCopyBool";
+        internal static string EditorNewFileSuffixBool = "EditorNewFileSuffixBool";
     }
 }

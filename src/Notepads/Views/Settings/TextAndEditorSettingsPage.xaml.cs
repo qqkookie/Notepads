@@ -94,12 +94,12 @@
             LineNumbersToggle.IsOn = AppSettingsService.EditorDisplayLineNumbers;
             FontFamilyPicker.SelectedItem = AppSettingsService.EditorFontFamily;
             FontSizePicker.SelectedItem = AppSettingsService.EditorFontSize;
-            FontStylePicker.SelectedItem = AvailableFontStyles.FirstOrDefault(style => style.FontStyle == AppSettingsService.EditorFontStyle);
-            FontWeightPicker.SelectedItem = AvailableFontWeights.FirstOrDefault(weight => weight.FontWeight.Weight == AppSettingsService.EditorFontWeight.Weight);
+            // FontStylePicker.SelectedItem = AvailableFontStyles.FirstOrDefault(style => style.FontStyle == AppSettingsService.EditorFontStyle);
+            // FontWeightPicker.SelectedItem = AvailableFontWeights.FirstOrDefault(weight => weight.FontWeight.Weight == AppSettingsService.EditorFontWeight.Weight);
 
             InitializeLineEndingSettings();
 
-            InitializeEncodingSettings();
+            // InitializeEncodingSettings();
 
             InitializeDecodingSettings();
 
@@ -117,15 +117,16 @@
                 case LineEnding.Crlf:
                     CrlfRadioButton.IsChecked = true;
                     break;
-                case LineEnding.Cr:
-                    CrRadioButton.IsChecked = true;
-                    break;
+                // case LineEnding.Cr:
+                //    CrRadioButton.IsChecked = true;
+                //    break;
                 case LineEnding.Lf:
                     LfRadioButton.IsChecked = true;
                     break;
             }
         }
 
+        /*
         private void InitializeEncodingSettings()
         {
             if (AppSettingsService.EditorDefaultEncoding.CodePage == Encoding.UTF8.CodePage)
@@ -148,6 +149,7 @@
                 Utf16BeBomEncodingRadioButton.IsChecked = true;
             }
         }
+        */
 
         private void InitializeDecodingSettings()
         {
@@ -221,17 +223,19 @@
             LineNumbersToggle.Toggled += LineNumbersToggle_Toggled;
             FontFamilyPicker.SelectionChanged += FontFamilyPicker_OnSelectionChanged;
             FontSizePicker.SelectionChanged += FontSizePicker_OnSelectionChanged;
-            FontStylePicker.SelectionChanged += FontStylePicker_OnSelectionChanged;
-            FontWeightPicker.SelectionChanged += FontWeightPicker_OnSelectionChanged;
+            // FontStylePicker.SelectionChanged += FontStylePicker_OnSelectionChanged;
+            // FontWeightPicker.SelectionChanged += FontWeightPicker_OnSelectionChanged;
 
             CrlfRadioButton.Checked += LineEndingRadioButton_OnChecked;
-            CrRadioButton.Checked += LineEndingRadioButton_OnChecked;
+            // CrRadioButton.Checked += LineEndingRadioButton_OnChecked;
             LfRadioButton.Checked += LineEndingRadioButton_OnChecked;
 
+            /*
             Utf8EncodingRadioButton.Checked += EncodingRadioButton_Checked;
             Utf8BomEncodingRadioButton.Checked += EncodingRadioButton_Checked;
             Utf16LeBomEncodingRadioButton.Checked += EncodingRadioButton_Checked;
             Utf16BeBomEncodingRadioButton.Checked += EncodingRadioButton_Checked;
+            */
 
             Utf8DecodingRadioButton.Checked += DecodingRadioButton_Checked;
             AnsiDecodingRadioButton.Checked += DecodingRadioButton_Checked;
@@ -365,8 +369,8 @@
         {
             var fontFamily = new FontFamily((string)e.AddedItems.First());
             AppSettingsService.EditorFontFamily = fontFamily.Source;
-            FontStylePicker.FontFamily = fontFamily;
-            FontWeightPicker.FontFamily = fontFamily;
+            // FontStylePicker.FontFamily = fontFamily;
+            // FontWeightPicker.FontFamily = fontFamily;
         }
 
         private void FontSizePicker_OnSelectionChanged(object sender, SelectionChangedEventArgs e)

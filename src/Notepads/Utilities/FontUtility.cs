@@ -9,7 +9,7 @@
     using Windows.UI.Xaml.Controls;
     using Windows.UI.Xaml.Media;
     using Microsoft.AppCenter.Analytics;
-
+   
     public static class FontUtility
     {
         /// <summary>
@@ -85,11 +85,75 @@
             "Yu Gothic"
         });
 
+        /// <summary>List of popular monospaced fonts.</summary>
+        private static readonly IReadOnlyCollection<string> MonospacedFonts = new HashSet<string>(new[]
+        {
+            "Consolas",
+            "Courier New",
+            "Lucida Console",
+            "Lucida Sans Typewriter",
+            "Courier",
+            "Courier New",
+            "Fixedsys",
+            "Terminal",
+            "Cascadia Code",
+            "Cascadia Code ExtraLight",
+            "Cascadia Code Light",
+            "Cascadia Code SemiLight",
+            "Cascadia Code SemiBold",
+            "Cascadia Mono",
+            "Cascadia Mono ExtraLight",
+            "Cascadia Mono Light",
+            "Cascadia Mono SemiLight",
+            "Cascadia Mono SemiBold",
+
+            "Lucida Sans Unicode",  // Propotional
+            "Tahoma",               // Propotional
+
+            // CJK
+            "Malgun Gothic",        // Propotional
+            "BatangChe",
+            "DotumChe",
+            "GulimChe",
+            "GungsuhChe",
+            "MS Gothic",
+            "MS Mincho",
+            "UD Digi Kyokasho N-R",
+            "NSimSun",
+            "SimSun",
+            "SimSun-ExtB",
+            "SimHe",
+
+            "Anonymous Pro",
+            "Bitstream Vera Sans Mono",
+            "Cutive Mono",
+            "D2Coding",
+            "DejaVu Sans Mono",
+            "Droid Sans Mono",
+            "Fira Code",
+            "Fira Mono",
+            "Hack",
+            "IBM Plex Mono",
+            "Inconsolata",
+            "Liberation Mono",
+            "Luxi Mono",
+            "Monaco",
+            "Monospace",
+            "NanumGothicCoding",
+            "Oxygen Mono",
+            "PT Mono",
+            "Prestige Elite",
+            "Roboto Mono",
+            "Source Code Pro",
+            "Space Mono",
+            "Ubuntu Mono",
+        });
+
         public static readonly int[] PredefinedFontSizes =
         {
             8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 22, 24, 26, 28, 36, 48, 72
         };
-
+        
         public static readonly Dictionary<string, FontStyle> PredefinedFontStylesMap = new Dictionary<string, FontStyle>()
         {
             {nameof(FontStyle.Normal),  FontStyle.Normal},
@@ -122,7 +186,7 @@
             var off = Math.Abs(tb1.DesiredSize.Width - tb2.DesiredSize.Width);
             return off < 0.01;
         }
-
+        
         public static Size GetTextSize(FontFamily font, double fontSize, string text)
         {
             var tb = new TextBlock { Text = text, FontFamily = font, FontSize = fontSize };
@@ -132,10 +196,12 @@
 
         public static string[] GetSystemFontFamilies()
         {
+            string[] fonts;
             try
             {
                 var systemFonts = Microsoft.Graphics.Canvas.Text.CanvasTextFormat.GetSystemFontFamilies(ApplicationLanguages.Languages);
-                return systemFonts.Where(font => !SymbolFonts.Contains(font)).OrderBy(font => font).ToArray();
+                fonts = systemFonts.Where(font => MonospacedFonts.Contains(font)).ToArray();
+                // return systemFonts.Where(font => !SymbolFonts.Contains(font)).OrderBy(font => font).ToArray();
             }
             catch (Exception ex)
             {
@@ -143,8 +209,9 @@
                 {
                     { "Exception", ex.ToString() }
                 });
-                return DefaultFonts.Where(font => !SymbolFonts.Contains(font)).OrderBy(font => font).ToArray();
+                fonts = DefaultFonts.ToArray();
             }
+            return fonts.OrderBy(font => font).ToArray();
         }
     }
 }

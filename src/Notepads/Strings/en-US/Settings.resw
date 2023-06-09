@@ -327,11 +327,11 @@
   </data>
   <data name="AdvancedPage_LaunchPreferenceSettings_AlwaysOpenNewWindowToggleSwitch.OffContent" xml:space="preserve">
     <value>Always open new window</value>
-    <comment>AdvancedPage LaunchPreferenceSettings AlwaysOpenNewWindow OnOffToggleSwitch On display text.</comment>
+    <comment>AdvancedPage LaunchPreferenceSettings AlwaysOpenNewWindow OnOffToggleSwitch Off display text.</comment>
   </data>
   <data name="AdvancedPage_LaunchPreferenceSettings_AlwaysOpenNewWindowToggleSwitch.OnContent" xml:space="preserve">
     <value>Always open new window</value>
-    <comment>AdvancedPage LaunchPreferenceSettings AlwaysOpenNewWindow OnOffToggleSwitch Off display text.</comment>
+    <comment>AdvancedPage LaunchPreferenceSettings AlwaysOpenNewWindow OnOffToggleSwitch On display text.</comment>
   </data>
   <data name="AdvancedPage_LaunchPreferenceSettings_Title.Text" xml:space="preserve">
     <value>Launch Preferences</value>
@@ -428,5 +428,13 @@
   <data name="AdvancedPage_LaunchPreferenceSettings_ExitWhenLastTabClosedToggleSwitch.OnContent" xml:space="preserve">
     <value>Exit app when closing last tab</value>
     <comment>AdvancedPage AppLifecyclePreferenceSettings ExitingLastTabClosesWindowToggleSwitch On display text.</comment>
+  </data>
+  <data name="AdvancedPage_LaunchPreferenceSettings_NewFileSuffixToggleSwitch.OffContent" xml:space="preserve">
+    <value>Untitled name only</value>
+    <comment>AdvancedPage LaunchPreferenceSettings NewFileSuffix OnOffToggleSwitch Off display text.</comment>
+  </data>
+  <data name="AdvancedPage_LaunchPreferenceSettings_NewFileSuffixToggleSwitch.OnContent" xml:space="preserve">
+    <value>Add date time suffix to Untiled name</value>
+    <comment>AdvancedPage LaunchPreferenceSettings NewFileSuffix OnOffToggleSwitch On display text.</comment>
   </data>
 </root>

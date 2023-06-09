@@ -140,3 +140,17 @@ You might notice that I work for Microsoft but Notepads is my personal project t
 
 ## Stay tuned 📢:
 * [Notepads Discord Server](https://discord.gg/VqetCub)
+
+##
+## Kookie Modification
+### 2023-06-09
+
+* Simplied Editor setting and Personal Setting dialog.
+  - For font family setting, show mostly monospaced fonts.
+  - Removed font style and weight setting.
+  - Removed new file default encoding radio buttons.
+  - Removed <Cr> line ending choice radio button
+* Add creation date/time to default new documen,
+  "Untiltled.txt" -> "Untitled-12311200.txt"
+* File Open remembers previous folder, not "Documents" folder always.
+* Corrected AlwaysOpenNewWindow OnOffToggleSwitch comments.

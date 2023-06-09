@@ -32,6 +32,7 @@
 
             ExitWhenLastTabClosedToggleSwitch.IsOn = AppSettingsService.ExitWhenLastTabClosed;
             AlwaysOpenNewWindowToggleSwitch.IsOn = AppSettingsService.AlwaysOpenNewWindow;
+            NewFileSuffixToggleSwitch.IsOn = AppSettingsService.NewFileSuffix;
 
             if (App.IsGameBarWidget)
             {
@@ -101,6 +102,11 @@
             RestartPrompt.Visibility = languageId == LanguageUtility.CurrentLanguageID ? Visibility.Collapsed : Visibility.Visible;
 
             ApplicationLanguages.PrimaryLanguageOverride = languageId;
+        }
+
+        private void NewFileSuffixToggleSwitch_Toggled(object sender, RoutedEventArgs e)
+        {
+            AppSettingsService.NewFileSuffix = NewFileSuffixToggleSwitch.IsOn;
         }
     }
 }

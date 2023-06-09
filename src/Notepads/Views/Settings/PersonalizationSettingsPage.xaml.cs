@@ -35,10 +35,10 @@
                 }
             }
 
-            AccentColorToggle.IsOn = ThemeSettingsService.UseWindowsAccentColor;
-            AccentColorPicker.IsEnabled = !ThemeSettingsService.UseWindowsAccentColor;
+            // AccentColorToggle.IsOn = ThemeSettingsService.UseWindowsAccentColor;
+            // AccentColorPicker.IsEnabled = !ThemeSettingsService.UseWindowsAccentColor;
             BackgroundTintOpacitySlider.Value = ThemeSettingsService.AppBackgroundPanelTintOpacity * 100;
-            AccentColorPicker.Color = ThemeSettingsService.AppAccentColor;
+            // AccentColorPicker.Color = ThemeSettingsService.AppAccentColor;
 
             if (App.IsGameBarWidget)
             {
@@ -61,9 +61,9 @@
             await Dispatcher.CallOnUIThreadAsync(() =>
             {
                 BackgroundTintOpacitySlider.Foreground = new SolidColorBrush(color);
-                AccentColorPicker.ColorChanged -= AccentColorPicker_OnColorChanged;
-                AccentColorPicker.Color = color;
-                AccentColorPicker.ColorChanged += AccentColorPicker_OnColorChanged;
+                // AccentColorPicker.ColorChanged -= AccentColorPicker_OnColorChanged;
+                // AccentColorPicker.Color = color;
+                // AccentColorPicker.ColorChanged += AccentColorPicker_OnColorChanged;
             });
         }
 
@@ -73,8 +73,8 @@
             ThemeModeLightButton.Checked += ThemeRadioButton_OnChecked;
             ThemeModeDarkButton.Checked += ThemeRadioButton_OnChecked;
             BackgroundTintOpacitySlider.ValueChanged += BackgroundTintOpacitySlider_OnValueChanged;
-            AccentColorToggle.Toggled += WindowsAccentColorToggle_OnToggled;
-            AccentColorPicker.ColorChanged += AccentColorPicker_OnColorChanged;
+            // AccentColorToggle.Toggled += WindowsAccentColorToggle_OnToggled;
+            // AccentColorPicker.ColorChanged += AccentColorPicker_OnColorChanged;
             ThemeSettingsService.OnAccentColorChanged += ThemeSettingsService_OnAccentColorChanged;
             if (!App.IsGameBarWidget)
             {
@@ -89,8 +89,8 @@
             ThemeModeLightButton.Checked -= ThemeRadioButton_OnChecked;
             ThemeModeDarkButton.Checked -= ThemeRadioButton_OnChecked;
             BackgroundTintOpacitySlider.ValueChanged -= BackgroundTintOpacitySlider_OnValueChanged;
-            AccentColorToggle.Toggled -= WindowsAccentColorToggle_OnToggled;
-            AccentColorPicker.ColorChanged -= AccentColorPicker_OnColorChanged;
+            // AccentColorToggle.Toggled -= WindowsAccentColorToggle_OnToggled;
+            // AccentColorPicker.ColorChanged -= AccentColorPicker_OnColorChanged;
             ThemeSettingsService.OnAccentColorChanged -= ThemeSettingsService_OnAccentColorChanged;
             if (!App.IsGameBarWidget)
             {
@@ -140,11 +140,12 @@
 
         private void AccentColorPicker_OnColorChanged(ColorPicker sender, ColorChangedEventArgs args)
         {
-            if (AccentColorPicker.IsEnabled)
+            /* if (AccentColorPicker.IsEnabled)
             {
                 ThemeSettingsService.AppAccentColor = args.NewColor;
                 if (!AccentColorToggle.IsOn) ThemeSettingsService.CustomAccentColor = args.NewColor;
             }
+            */
         }
 
         private void BackgroundTintOpacitySlider_OnValueChanged(object sender, RangeBaseValueChangedEventArgs e)
@@ -154,9 +155,9 @@
 
         private void WindowsAccentColorToggle_OnToggled(object sender, RoutedEventArgs e)
         {
-            AccentColorPicker.IsEnabled = !AccentColorToggle.IsOn;
-            ThemeSettingsService.UseWindowsAccentColor = AccentColorToggle.IsOn;
-            AccentColorPicker.Color = AccentColorToggle.IsOn ? ThemeSettingsService.AppAccentColor : ThemeSettingsService.CustomAccentColor;
+            // AccentColorPicker.IsEnabled = !AccentColorToggle.IsOn;
+            // ThemeSettingsService.UseWindowsAccentColor = AccentColorToggle.IsOn;
+            // AccentColorPicker.Color = AccentColorToggle.IsOn ? ThemeSettingsService.AppAccentColor : ThemeSettingsService.CustomAccentColor;
         }
     }
 }
