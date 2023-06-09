@@ -1,0 +1,1645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="NOTEPADS/STRINGS/EN-US/MANIFEST.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.0.0.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="NOTEPADS/STRINGS/EN-US/MANIFEST.RESW" datatype="resx">
+        <trans-unit id="AegisubAdvancedSubtitleFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Aegisub Advanced Subtitle File</source>
+          <target state="translated">Aegisub 고급 자막 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.ass</note>
+        </trans-unit>
+        <trans-unit id="AsmFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Assembly Language File</source>
+          <target state="translated">어셈블리어 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.asm</note>
+        </trans-unit>
+        <trans-unit id="AspFileDisplayName" translate="yes" xml:space="preserve">
+          <source>ASP File</source>
+          <target state="translated">ASP 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.asp, .aspx</note>
+        </trans-unit>
+        <trans-unit id="AutoHotkeyScriptFileDisplayName" translate="yes" xml:space="preserve">
+          <source>AutoHotkey Script File</source>
+          <target state="translated">AutoHotkey 스크립트 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.ahk</note>
+        </trans-unit>
+        <trans-unit id="BashAliasesFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Bash Aliases File</source>
+          <target state="translated">Bash 별칭 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.bash_aliases</note>
+        </trans-unit>
+        <trans-unit id="BashHistoryFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Bash History File</source>
+          <target state="translated">Bash 내역 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.bash_history</note>
+        </trans-unit>
+        <trans-unit id="BashLoginFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Bash Login File</source>
+          <target state="translated">Bash 로그인 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.bash_login</note>
+        </trans-unit>
+        <trans-unit id="BashLogoutFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Bash Logout File</source>
+          <target state="translated">Bash 로그아웃 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.bash_logout</note>
+        </trans-unit>
+        <trans-unit id="BashProfileFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Bash Profile File</source>
+          <target state="translated">Bash 프로필 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.bash_profile</note>
+        </trans-unit>
+        <trans-unit id="BashScriptFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Bash Script File</source>
+          <target state="translated">Bash 스크립트 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.bash</note>
+        </trans-unit>
+        <trans-unit id="BibTeXFileDisplayName" translate="yes" xml:space="preserve">
+          <source>BibTeX File</source>
+          <target state="translated">BibTeX 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.bib</note>
+        </trans-unit>
+        <trans-unit id="BondFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Bond File</source>
+          <target state="translated">Bond 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.bond</note>
+        </trans-unit>
+        <trans-unit id="BuildPathFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Build Path File</source>
+          <target state="translated">빌드 경로 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.buildpath</note>
+        </trans-unit>
+        <trans-unit id="CFileDisplayName" translate="yes" xml:space="preserve">
+          <source>C File</source>
+          <target state="translated">C 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.c, .m, .i</note>
+        </trans-unit>
+        <trans-unit id="CgiFileDisplayName" translate="yes" xml:space="preserve">
+          <source>CGI File</source>
+          <target state="translated">CGI 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.cgi</note>
+        </trans-unit>
+        <trans-unit id="ClojureFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Clojure File</source>
+          <target state="translated">Clojure 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.clj, .cljs, .cljc, .cljx, .clojure, .edn</note>
+        </trans-unit>
+        <trans-unit id="CmakeFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Cmake File</source>
+          <target state="translated">Cmake 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.cmake</note>
+        </trans-unit>
+        <trans-unit id="CoffeeScriptFileDisplayName" translate="yes" xml:space="preserve">
+          <source>CoffeeScript File</source>
+          <target state="translated">CoffeeScript 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.coffee, .cson, .iced</note>
+        </trans-unit>
+        <trans-unit id="CommaSeparatedValuesFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Comma Separated Values File</source>
+          <target state="translated">쉼표 구분 값 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.csv</note>
+        </trans-unit>
+        <trans-unit id="ConfigFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Configuration Settings</source>
+          <target state="translated">구성 설정</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.cfg, .config, .cnf, .conf, .properties, .directory</note>
+        </trans-unit>
+        <trans-unit id="CppFileDisplayName" translate="yes" xml:space="preserve">
+          <source>C++ File</source>
+          <target state="translated">C++ 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.cpp, .cc, .mm, .cxx, .ii, .ino</note>
+        </trans-unit>
+        <trans-unit id="CSharpFileDisplayName" translate="yes" xml:space="preserve">
+          <source>C# File</source>
+          <target state="translated">C# 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.cs, .csx, .cake</note>
+        </trans-unit>
+        <trans-unit id="CssFileDisplayName" translate="yes" xml:space="preserve">
+          <source>CSS File</source>
+          <target state="translated">CSS 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.css, .scss</note>
+        </trans-unit>
+        <trans-unit id="DatFileDisplayName" translate="yes" xml:space="preserve">
+          <source>DAT File</source>
+          <target state="translated">DAT 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.dat</note>
+        </trans-unit>
+        <trans-unit id="DiffFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Diff File</source>
+          <target state="translated">Diff 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.patch, .diff, .rej</note>
+        </trans-unit>
+        <trans-unit id="DockerFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Docker File</source>
+          <target state="translated">Docker 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.dockerfile</note>
+        </trans-unit>
+        <trans-unit id="EBuildFileDisplayName" translate="yes" xml:space="preserve">
+          <source>EBuild File</source>
+          <target state="translated">EBuild 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.ebuild</note>
+        </trans-unit>
+        <trans-unit id="FSharpFileDisplayName" translate="yes" xml:space="preserve">
+          <source>F# File</source>
+          <target state="translated">F# 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.fs, .fsi, .fsx, .fsscript</note>
+        </trans-unit>
+        <trans-unit id="GitAttributesFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Git Attributes File</source>
+          <target state="translated">Git 속성 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.gitattributes</note>
+        </trans-unit>
+        <trans-unit id="GitConfigFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Git Config File</source>
+          <target state="translated">Git 구성 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.gitconfig</note>
+        </trans-unit>
+        <trans-unit id="GitIgnoreFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Git Ignore File</source>
+          <target state="translated">Git 무시 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.gitignore</note>
+        </trans-unit>
+        <trans-unit id="GlspFileDisplayName" translate="yes" xml:space="preserve">
+          <source>GLSP File</source>
+          <target state="translated">GLSP 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.glsp</note>
+        </trans-unit>
+        <trans-unit id="GoFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Go File</source>
+          <target state="translated">Go 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.go</note>
+        </trans-unit>
+        <trans-unit id="GroovyFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Groovy File</source>
+          <target state="translated">Groovy 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.groovy, .gvy, .gradle</note>
+        </trans-unit>
+        <trans-unit id="HandlebarsFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Handlebars File</source>
+          <target state="translated">Handlebars 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.handlebars, .hbs, .hjs</note>
+        </trans-unit>
+        <trans-unit id="HeaderFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Header File</source>
+          <target state="translated">헤더 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.h, .hpp, .hh, .hxx</note>
+        </trans-unit>
+        <trans-unit id="HlslFileDisplayName" translate="yes" xml:space="preserve">
+          <source>HLSL File</source>
+          <target state="translated">HLSL 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.hlsl, .hlsli, .fx, .fxh, .vsh, .psh, .cginc, .compute</note>
+        </trans-unit>
+        <trans-unit id="HtmlFileDisplayName" translate="yes" xml:space="preserve">
+          <source>HTML File</source>
+          <target state="translated">HTML 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.html, .htm, .shtml, .xhtml, .mdoc, .jshtm, .volt</note>
+        </trans-unit>
+        <trans-unit id="HypertextAccessFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Hypertext Access File</source>
+          <target state="translated">Hypertext 접근 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.htaccess</note>
+        </trans-unit>
+        <trans-unit id="InitializationFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Initialization File</source>
+          <target state="translated">초기화 구성 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.ini</note>
+        </trans-unit>
+        <trans-unit id="InstallFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Install File</source>
+          <target state="translated">설치 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.install</note>
+        </trans-unit>
+        <trans-unit id="JavaFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Java File</source>
+          <target state="translated">Java 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.java, .jav</note>
+        </trans-unit>
+        <trans-unit id="JavascriptFileDisplayName" translate="yes" xml:space="preserve">
+          <source>JavaScript File</source>
+          <target state="translated">Javascript 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.js, .jsx, .es6, .mjs, .cjs, .pac</note>
+        </trans-unit>
+        <trans-unit id="JsonFileDisplayName" translate="yes" xml:space="preserve">
+          <source>JSON File</source>
+          <target state="translated">JSON 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.json, .hintrc, .jsonc, .jsonld, .babelrc, .eslintrc, .jslintrc, .bowerrc, .jscsrc, .webmanifest, .har</note>
+        </trans-unit>
+        <trans-unit id="JspFileDisplayName" translate="yes" xml:space="preserve">
+          <source>JSP File</source>
+          <target state="translated">JSP 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.jsp, .jspx</note>
+        </trans-unit>
+        <trans-unit id="LessFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Less File</source>
+          <target state="translated">Less 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.less</note>
+        </trans-unit>
+        <trans-unit id="LogFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Log File</source>
+          <target state="translated">Log 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.log</note>
+        </trans-unit>
+        <trans-unit id="LrcFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Lyrics File</source>
+          <target state="translated">Lyrics 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.lrc</note>
+        </trans-unit>
+        <trans-unit id="LuaFileDisplayName" translate="yes" xml:space="preserve">
+          <source>LUA File</source>
+          <target state="translated">LUA 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.lua</note>
+        </trans-unit>
+        <trans-unit id="MapFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Map File</source>
+          <target state="translated">Map 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.map</note>
+        </trans-unit>
+        <trans-unit id="MarkdownFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Markdown File</source>
+          <target state="translated">마크다운 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.md, .markdown, .mkd, .mdwn, .mdown, .markn, .mdtxt</note>
+        </trans-unit>
+        <trans-unit id="NfoFileDisplayName" translate="yes" xml:space="preserve">
+          <source>NFO File</source>
+          <target state="translated">NFO 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.nfo</note>
+        </trans-unit>
+        <trans-unit id="NpmConfigFileDisplayName" translate="yes" xml:space="preserve">
+          <source>NPM Config File</source>
+          <target state="translated">NPM 구성 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.npmrc</note>
+        </trans-unit>
+        <trans-unit id="Perl6FileDisplayName" translate="yes" xml:space="preserve">
+          <source>Perl 6 File</source>
+          <target state="translated">Perl 6 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.p6, .pl6, .pm6, .nqp</note>
+        </trans-unit>
+        <trans-unit id="PerlFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Perl File</source>
+          <target state="translated">Perl 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.pl, .pm, .psgi</note>
+        </trans-unit>
+        <trans-unit id="PhpFileDisplayName" translate="yes" xml:space="preserve">
+          <source>PHP File</source>
+          <target state="translated">PHP 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.php, .php4, .php5, .phtml, .ctp</note>
+        </trans-unit>
+        <trans-unit id="PodFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Pod File</source>
+          <target state="translated">Pod 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.pod, .podspec</note>
+        </trans-unit>
+        <trans-unit id="PowerShellFileDisplayName" translate="yes" xml:space="preserve">
+          <source>PowerShell File</source>
+          <target state="translated">PowerShell 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.ps1, .psm1, .psd1, .pssc, .psrc</note>
+        </trans-unit>
+        <trans-unit id="ProfileFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Profile File</source>
+          <target state="translated">Profile 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.profile</note>
+        </trans-unit>
+        <trans-unit id="ProjectFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Project File</source>
+          <target state="translated">Project 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.project, .prj</note>
+        </trans-unit>
+        <trans-unit id="PugFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Pug File</source>
+          <target state="translated">Pug 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.jade, .pug</note>
+        </trans-unit>
+        <trans-unit id="PythonFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Python File</source>
+          <target state="translated">Python 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.py</note>
+        </trans-unit>
+        <trans-unit id="RazorFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Razor File</source>
+          <target state="translated">Razor 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.cshtml</note>
+        </trans-unit>
+        <trans-unit id="RFileDisplayName" translate="yes" xml:space="preserve">
+          <source>R File</source>
+          <target state="translated">R 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.r, .rhistory, .rprofile, .rt</note>
+        </trans-unit>
+        <trans-unit id="RubyFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Ruby File</source>
+          <target state="translated">Ruby 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.rb, .rbx, .rjs, .gemspec, .rake, .ru, .erb, .rbi, .arb</note>
+        </trans-unit>
+        <trans-unit id="RunCommandsFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Run Commands File</source>
+          <target state="translated">Run Commands 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.bashrc, .vimrc, .rc</note>
+        </trans-unit>
+        <trans-unit id="RustFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Rust File</source>
+          <target state="translated">Rust 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.rs</note>
+        </trans-unit>
+        <trans-unit id="ShaderFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Shader File</source>
+          <target state="translated">Shader 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.shader</note>
+        </trans-unit>
+        <trans-unit id="ShellScriptFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Shell Script File</source>
+          <target state="translated">Shell Script 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.sh</note>
+        </trans-unit>
+        <trans-unit id="SqlFileDisplayName" translate="yes" xml:space="preserve">
+          <source>SQL File</source>
+          <target state="translated">SQL 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.sql, .dsql</note>
+        </trans-unit>
+        <trans-unit id="SubStationAlphaSubtitleFileDisplayName" translate="yes" xml:space="preserve">
+          <source>SubStation Alpha Subtitle File</source>
+          <target state="translated">Sub Station Alpha 자막 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.ssa</note>
+        </trans-unit>
+        <trans-unit id="SubtitleFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Subtitle File</source>
+          <target state="translated">자막 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.srt</note>
+        </trans-unit>
+        <trans-unit id="SwiftFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Swift File</source>
+          <target state="translated">Swift 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.swift</note>
+        </trans-unit>
+        <trans-unit id="TextFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Text Document</source>
+          <target state="translated">텍스트 문서</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.txt</note>
+        </trans-unit>
+        <trans-unit id="TFileDisplayName" translate="yes" xml:space="preserve">
+          <source>T File</source>
+          <target state="translated">T 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.t</note>
+        </trans-unit>
+        <trans-unit id="TypeScriptFileDisplayName" translate="yes" xml:space="preserve">
+          <source>TypeScript File</source>
+          <target state="translated">TypeScript 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.ts, .tsx</note>
+        </trans-unit>
+        <trans-unit id="UserFileDisplayName" translate="yes" xml:space="preserve">
+          <source>User File</source>
+          <target state="translated">User 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.user</note>
+        </trans-unit>
+        <trans-unit id="VerilogFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Verilog File</source>
+          <target state="translated">Verilog 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.v</note>
+        </trans-unit>
+        <trans-unit id="VisualBasicFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Visual Basic File</source>
+          <target state="translated">Visual Basic 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.vb, .vbs, .brs, .bas</note>
+        </trans-unit>
+        <trans-unit id="VueConfigFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Vue Config File</source>
+          <target state="translated">Vue 구성 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.vuerc</note>
+        </trans-unit>
+        <trans-unit id="VueFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Vue File</source>
+          <target state="translated">Vue 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.vue</note>
+        </trans-unit>
+        <trans-unit id="XamlFileDisplayName" translate="yes" xml:space="preserve">
+          <source>XAML File</source>
+          <target state="translated">XAML 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.xaml</note>
+        </trans-unit>
+        <trans-unit id="XmlFileDisplayName" translate="yes" xml:space="preserve">
+          <source>XML File</source>
+          <target state="translated">XML 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.xml, .xsd, .ascx, .atom, .axml, .bpmn, .cpt, .csl</note>
+        </trans-unit>
+        <trans-unit id="YamlFileDisplayName" translate="yes" xml:space="preserve">
+          <source>YAML File</source>
+          <target state="translated">YAML 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.yml, .yaml</note>
+        </trans-unit>
+        <trans-unit id="ZshellConfigFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Z shell Config File</source>
+          <target state="translated">Z shell 구성 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.zshrc</note>
+        </trans-unit>
+        <trans-unit id="ZshellHistoryFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Z shell History File</source>
+          <target state="translated">Z shell 내역 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.zsh_history</note>
+        </trans-unit>
+        <trans-unit id="M3uFileDisplayName" translate="yes" xml:space="preserve">
+          <source>M3U File</source>
+          <target state="translated">M3U 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.m3u, .m3u8</note>
+        </trans-unit>
+        <trans-unit id="CheatFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Cheat File</source>
+          <target state="translated">Cheat 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.cht</note>
+        </trans-unit>
+        <trans-unit id="CSharpeProjectFileDisplayName" translate="yes" xml:space="preserve">
+          <source>C# Project File</source>
+          <target state="translated">C# 프로젝트 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.csproj</note>
+        </trans-unit>
+        <trans-unit id="EnvironmentFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Environment File</source>
+          <target state="translated">환경 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.env</note>
+        </trans-unit>
+        <trans-unit id="GlslFileDisplayName" translate="yes" xml:space="preserve">
+          <source>GLSL File</source>
+          <target state="translated">GLSL 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.glslp</note>
+        </trans-unit>
+        <trans-unit id="LicenseFileDisplayName" translate="yes" xml:space="preserve">
+          <source>License File</source>
+          <target state="translated">라이선스 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.lic</note>
+        </trans-unit>
+        <trans-unit id="OptFileDisplayName" translate="yes" xml:space="preserve">
+          <source>OPT File</source>
+          <target state="translated">OPT 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.opt</note>
+        </trans-unit>
+        <trans-unit id="PropertyListFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Property List File</source>
+          <target state="translated">Property 목록 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.plist</note>
+        </trans-unit>
+        <trans-unit id="PvdFileDisplayName" translate="yes" xml:space="preserve">
+          <source>PVD File</source>
+          <target state="translated">PVD 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.pvd</note>
+        </trans-unit>
+        <trans-unit id="ResourceFileDisplayName" translate="yes" xml:space="preserve">
+          <source>Resource File</source>
+          <target state="translated">Resource 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.resx</note>
+        </trans-unit>
+        <trans-unit id="TomlFileDisplayName" translate="yes" xml:space="preserve">
+          <source>TOML File</source>
+          <target state="translated">TOML 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.toml</note>
+        </trans-unit>
+        <trans-unit id="XslFileDisplayName" translate="yes" xml:space="preserve">
+          <source>XSL File</source>
+          <target state="translated">XSL 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">.xsl</note>
+        </trans-unit>
+        <trans-unit id="NewTextDocumentDisplayName" translate="yes" xml:space="preserve">
+          <source>Text Document</source>
+          <target state="translated">텍스트 문서</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">New .txt file name</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="NOTEPADS/STRINGS/EN-US/SETTINGS.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.0.0.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="NOTEPADS/STRINGS/EN-US/SETTINGS.RESW" datatype="resx">
+        <trans-unit id="AboutPage_DependenciesAndReferences_Title.Text" translate="yes" xml:space="preserve">
+          <source>Dependencies and References</source>
+          <target state="translated">의존성 및 참조</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AboutPage DependenciesAndReferences Title display text.</note>
+        </trans-unit>
+        <trans-unit id="AboutPage_Disclaimer_Content.Text" translate="yes" xml:space="preserve">
+          <source>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</source>
+          <target state="translated">THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AboutPage Disclaimer Content display text. (The MIT License Disclaimer)</note>
+        </trans-unit>
+        <trans-unit id="AboutPage_Disclaimer_Title.Text" translate="yes" xml:space="preserve">
+          <source>Disclaimer</source>
+          <target state="translated">면책</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AboutPage Disclaimer Title display text.</note>
+        </trans-unit>
+        <trans-unit id="AboutPage_NotepadsShortDescription.Text" translate="yes" xml:space="preserve">
+          <source>Free and open source text editor designed and implemented by Jackie (Jiaqi) Liu</source>
+          <target state="translated">Jackie (Jiaqi) Liu 가 제작한 무료 오픈소스 텍스트 에디터</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AboutPage NotepadsShortDescription display text.</note>
+        </trans-unit>
+        <trans-unit id="AboutPage_Notepads_AuthorContactsTitle.Text" translate="yes" xml:space="preserve">
+          <source>To contact the authors:</source>
+          <target state="translated">제작자에게 연락하기:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AboutPage Notepads AuthorContacts Title display text.</note>
+        </trans-unit>
+        <trans-unit id="AboutPage_Notepads_IssueAndFeatureRequestsTitle.Text" translate="yes" xml:space="preserve">
+          <source>For issue reporting and feature requests:</source>
+          <target state="translated">문제 보고와 기능 추가 요청하기:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AboutPage Notepads IssueAndFeatureRequests Title display text.</note>
+        </trans-unit>
+        <trans-unit id="AboutPage_Notepads_SourceCodeTitle.Text" translate="yes" xml:space="preserve">
+          <source>Source code is available on Github:</source>
+          <target state="translated">소스 코드는 Github에 공개됩니다:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AboutPage Notepads SourceCode Title display text.</note>
+        </trans-unit>
+        <trans-unit id="AboutPage_Notepads_WebsiteTitle.Text" translate="yes" xml:space="preserve">
+          <source>For more info, please visit our website:</source>
+          <target state="translated">자세한 내용은 우리의 웹 사이트를 방문하십시오:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AboutPage Notepads Website Title display text.</note>
+        </trans-unit>
+        <trans-unit id="AboutPage_PrivacyStatementTitle.Text" translate="yes" xml:space="preserve">
+          <source>Privacy Statement</source>
+          <target state="translated">개인정보 보호 정책</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AboutPage PrivacyStatementTitle display text.</note>
+        </trans-unit>
+        <trans-unit id="AboutPage_Title.Content" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="translated">애플리케이션 정보</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AboutPage Title display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_StatusBarSettings_ShowHideStatusBarToggleSwitch.OffContent" translate="yes" xml:space="preserve">
+          <source>Show status bar</source>
+          <target state="translated">상태표시줄 보이기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage StatusBarSettings ShowHideStatusBarToggleSwitch Off display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_StatusBarSettings_ShowHideStatusBarToggleSwitch.OnContent" translate="yes" xml:space="preserve">
+          <source>Show status bar</source>
+          <target state="translated">상태표시줄 보이기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage StatusBarSettings ShowHideStatusBarToggleSwitch On display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_StatusBarSettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Status Bar Settings</source>
+          <target state="translated">상태표시줄 설정</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage StatusBarSettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_Title.Content" translate="yes" xml:space="preserve">
+          <source>Advanced</source>
+          <target state="translated">고급</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage Title display text.</note>
+        </trans-unit>
+        <trans-unit id="PersonalizationPage_AccentColorSettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Accent Color</source>
+          <target state="translated">테마 컬러</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PersonalizationPage AccentColorSettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="PersonalizationPage_AccentColorSettings_UseWindowsAccentColorToggleSwitch.OffContent" translate="yes" xml:space="preserve">
+          <source>Use my Windows accent color</source>
+          <target state="translated">Windows 테마 컬러 사용</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PersonalizationPage AccentColorSettings UseWindowsAccentColorToggleSwitch Off display text.</note>
+        </trans-unit>
+        <trans-unit id="PersonalizationPage_AccentColorSettings_UseWindowsAccentColorToggleSwitch.OnContent" translate="yes" xml:space="preserve">
+          <source>Use my Windows accent color</source>
+          <target state="translated">Windows 의 강조 색상 사용</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PersonalizationPage AccentColorSettings UseWindowsAccentColorToggleSwitch On display text.</note>
+        </trans-unit>
+        <trans-unit id="PersonalizationPage_BackgroundTintOpacitySettings_Description.Text" translate="yes" xml:space="preserve">
+          <source>Acrylic background tint opacity. Please note that Acrylic effect will be disabled when battery saver mode is on or if you turn off transparency effects in Windows Settings.</source>
+          <target state="translated">아크릴 배경 색조 불투명도. 아크릴 효과의 경우 기기가 절전 모드로 전환되거나 Windows 설정에서 투명 효과를 끌 때 비활성화됨에 유의하십시오.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PersonalizationPage BackgroundTintOpacitySettings Description display text.</note>
+        </trans-unit>
+        <trans-unit id="PersonalizationPage_BackgroundTintOpacitySettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Background Tint Opacity</source>
+          <target state="translated">배경 색조 불투명도</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PersonalizationPage BackgroundTintOpacitySettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="PersonalizationPage_ThemeModeSettings_DarkModeRadioButton.Content" translate="yes" xml:space="preserve">
+          <source>Dark</source>
+          <target state="translated">어둡게</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PersonalizationPage ThemeModeSettings DarkModeRadioButton content display text.</note>
+        </trans-unit>
+        <trans-unit id="PersonalizationPage_ThemeModeSettings_LightModeRadioButton.Content" translate="yes" xml:space="preserve">
+          <source>Light</source>
+          <target state="translated">밝게</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PersonalizationPage ThemeModeSettings LightModeRadioButton content display text.</note>
+        </trans-unit>
+        <trans-unit id="PersonalizationPage_ThemeModeSettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Theme Mode</source>
+          <target state="translated">색 테마</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PersonalizationPage ThemeModeSettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="PersonalizationPage_ThemeModeSettings_WindowsModeRadioButton.Content" translate="yes" xml:space="preserve">
+          <source>Use my Windows mode</source>
+          <target state="translated">기본 Windows 모드 사용</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PersonalizationPage ThemeModeSettings WindowsModeRadioButton content display text.</note>
+        </trans-unit>
+        <trans-unit id="PersonalizationPage_Title.Content" translate="yes" xml:space="preserve">
+          <source>Personalization</source>
+          <target state="translated">개인 설정</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">PersonalizationPage Title display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_DecodingSettings_AnsiRadioButton.Content" translate="yes" xml:space="preserve">
+          <source>ANSI (Windows code page)</source>
+          <target state="translated">ANSI (Windows 코드 페이지)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage DecodingSettings AnsiRadioButton content display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_DecodingSettings_Description.Text" translate="yes" xml:space="preserve">
+          <source>Fallback decoding will be used when a file's encoding cannot be recognized.</source>
+          <target state="translated">파일 인코딩을 인식할 수 없는 경우 대체 설정이 적용됩니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage DecodingSettings Description display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_DecodingSettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Fallback Decoding</source>
+          <target state="translated">대체 디코딩</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage DecodingSettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_DecodingSettings_Utf8RadioButton.Content" translate="yes" xml:space="preserve">
+          <source>UTF-8</source>
+          <target state="final">UTF-8</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage DecodingSettings Utf8RadioButton content display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_EncodingSettings_Description.Text" translate="yes" xml:space="preserve">
+          <source>Only apply to new document.</source>
+          <target state="translated">새 문서에만 적용됩니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage EncodingSettings Description display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_EncodingSettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Default Encoding</source>
+          <target state="translated">기본 인코딩</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage EncodingSettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_FontSettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Default Font &amp; Size</source>
+          <target state="translated">기본 글꼴 및 크기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage FontSettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_LineEndingSettings_Description.Text" translate="yes" xml:space="preserve">
+          <source>Only apply to new document.</source>
+          <target state="translated">새 문서에만 적용됩니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage LineEndingSettings Description display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_LineEndingSettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Default Line Ending</source>
+          <target state="translated">기본 줄바꿈</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage LineEndingSettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_TabKeySettings_DefaultRadioButton.Content" translate="yes" xml:space="preserve">
+          <source>Default (\t)</source>
+          <target state="translated">탭 문자 (\t)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage TabKeySettings DefaultRadioButton content display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_TabKeySettings_Description.Text" translate="yes" xml:space="preserve">
+          <source>Settings for tab key behavior, only apply to new tabs inserted by user.</source>
+          <target state="translated">탭 키 동작 설정은 사용자가 삽입한 새 탭에만 적용됩니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage TabKeySettings Description display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_TabKeySettings_EightSpacesRadioButton.Content" translate="yes" xml:space="preserve">
+          <source>8 Spaces</source>
+          <target state="translated">공백 8개</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage TabKeySettings EightSpacesRadioButton content display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_TabKeySettings_FourSpacesRadioButton.Content" translate="yes" xml:space="preserve">
+          <source>4 Spaces</source>
+          <target state="translated">공백 4개</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage TabKeySettings FourSpacesRadioButton content display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_TabKeySettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Tab Key Behavior</source>
+          <target state="translated">탭 키 동작</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage TabKeySettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_TabKeySettings_TwoSpacesRadioButton.Content" translate="yes" xml:space="preserve">
+          <source>2 Spaces</source>
+          <target state="translated">공백 2개</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage TabKeySettings TwoSpacesRadioButton content display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_TextWrappingSettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Text Wrapping</source>
+          <target state="translated">텍스트 줄 바꿈</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage TextWrappingSettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_TextWrappingSettings_ToggleSwitch.OffContent" translate="yes" xml:space="preserve">
+          <source>Wrap word</source>
+          <target state="translated">단어 단위로 자동 개행</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage TextWrappingSettings ToggleSwitch Off display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_TextWrappingSettings_ToggleSwitch.OnContent" translate="yes" xml:space="preserve">
+          <source>Wrap word</source>
+          <target state="translated">단어 단위로 자동 개행</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage TextWrappingSettings ToggleSwitch On display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_Title.Content" translate="yes" xml:space="preserve">
+          <source>Text &amp; Editor</source>
+          <target state="translated">에디터 설정</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage Title display text.</note>
+        </trans-unit>
+        <trans-unit id="AboutPage_ChangelogUrl_Title.Text" translate="yes" xml:space="preserve">
+          <source>Changelog</source>
+          <target state="translated">변경 내역</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AboutPage Changelog Title display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_SessionSnapshotSettings_Description.Text" translate="yes" xml:space="preserve">
+          <source>Once enabled, Notepads will remember the current session for next launch and do a periodic session snapshot backup to prevent accidental data loss for uncommitted changes. Notepads will NOT remind you to save your work on app close if this feature is enabled. Please also remember that session snapshot only works in the first or main window of Notepads.</source>
+          <target state="translated">활성화되면 메모장은 다음 실행을 위해 현재 세션을 기억하고 저장되지 않은 변경으로 인한 우발적인 데이터 손실을 방지하기 위해 주기적으로 세션 스냅샷을 백업합니다. 이 기능이 활성화 된 경우 종료 시에 변경 사항을 저장하라는 메시지를 표시하지 않습니다. 세션 스냅샷은 메모장의 첫 번째 또는 기본 창에서만 작동합니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage SessionSnapshotSettings Description display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_SessionSnapshotSettings_OnOffToggleSwitch.OffContent" translate="yes" xml:space="preserve">
+          <source>Enable session snapshot</source>
+          <target state="translated">세션 스냅샷 사용</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage SessionSnapshotSettings OnOffToggleSwitch On display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_SessionSnapshotSettings_OnOffToggleSwitch.OnContent" translate="yes" xml:space="preserve">
+          <source>Enable session snapshot</source>
+          <target state="translated">세션 스냅샷 사용</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage SessionSnapshotSettings OnOffToggleSwitch Off display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_SessionSnapshotSettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Session Snapshot Settings</source>
+          <target state="translated">세션 스냅샷 설정</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage SessionSnapshotSettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_SpellingSettings_HighlightMisspelledWordsToggleSwitch.OffContent" translate="yes" xml:space="preserve">
+          <source>Highlight misspelled words</source>
+          <target state="translated">오타 강조</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage SpellingSettings HighlightMisspelledWordsToggleSwitch Off display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_SpellingSettings_HighlightMisspelledWordsToggleSwitch.OnContent" translate="yes" xml:space="preserve">
+          <source>Highlight misspelled words</source>
+          <target state="translated">오타 강조</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage SpellingSettings HighlightMisspelledWordsToggleSwitch On display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_SpellingSettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Spelling</source>
+          <target state="translated">철자</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage SpellingSettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_AlwaysOpenNewWindow_Description.Text" translate="yes" xml:space="preserve">
+          <source>Once enabled, Notepads will always open file in a new window instead of creating a new tab.</source>
+          <target state="translated">활성화되면 메모장은 항상 새 탭을 만드는 대신 새 창에서 파일을 엽니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage LaunchPreferenceSettings AlwaysOpenNewWindow Description display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_LaunchPreferenceSettings_AlwaysOpenNewWindowToggleSwitch.OffContent" translate="yes" xml:space="preserve">
+          <source>Always open new window</source>
+          <target state="translated">항상 새 탭 열기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage LaunchPreferenceSettings AlwaysOpenNewWindow OnOffToggleSwitch Off display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_LaunchPreferenceSettings_AlwaysOpenNewWindowToggleSwitch.OnContent" translate="yes" xml:space="preserve">
+          <source>Always open new window</source>
+          <target state="translated">항상 새 창 열기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage LaunchPreferenceSettings AlwaysOpenNewWindow OnOffToggleSwitch On display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_LaunchPreferenceSettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Launch Preferences</source>
+          <target state="translated">실행 설정</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage LaunchPreferenceSettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_LineHighlighterSettings_ToggleSwitch.OffContent" translate="yes" xml:space="preserve">
+          <source>Highlight current line</source>
+          <target state="translated">선택한 줄 강조 표시</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage LineHighlighterSettings ToggleSwitch Off display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_LineHighlighterSettings_ToggleSwitch.OnContent" translate="yes" xml:space="preserve">
+          <source>Highlight current line</source>
+          <target state="translated">선택한 줄 강조 표시</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage LineHighlighterSettings ToggleSwitch On display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_SearchEngineSettings_CustomSearchUrlRadioButton.Text" translate="yes" xml:space="preserve">
+          <source>Custom Search Engine</source>
+          <target state="translated">사용자 지정 검색 엔진</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage CustomSearchUrlRadioButton display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_SearchEngineSettings_CustomSearchUrlRadioButton_CustomUrlErrorReport.Text" translate="yes" xml:space="preserve">
+          <source>*Enter a url of format https://www.example.com/search?q={0}</source>
+          <target state="translated">*https://www.example.com/search?q={0} 형식의 URL을 입력하세요</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage CustomSearchUrl Textbox display text when entered text is not a valid format.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_SearchEngineSettings_Description.Text" translate="yes" xml:space="preserve">
+          <source>Settings for default search engine choosen when a web search is done.</source>
+          <target state="translated">웹 검색 수행 시 선택된 기본 검색 엔진에 대한 설정입니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage SearchEngineSettings Description display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_SearchEngineSettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Default Search Engine</source>
+          <target state="translated">기본 검색 엔진</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage SearchEngineSettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_DecodingSettings_AutoGuessRadioButton.Content" translate="yes" xml:space="preserve">
+          <source>Auto guess Encoding (Recommended)</source>
+          <target state="translated">자동으로 인코딩 결정 (추천)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage DecodingSettings AutoGuessDecodingRadioButton content display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_DisplaySettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Display</source>
+          <target state="translated">표시</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage DisplaySettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_LineNumbersSettings_Description.Text" translate="yes" xml:space="preserve">
+          <source>Display line numbers in the document.</source>
+          <target state="translated">문서에 줄 번호를 표시합니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage LineNumbersSettings Description display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_LineNumbersSettings_ToggleSwitch.OffContent" translate="yes" xml:space="preserve">
+          <source>Display line numbers</source>
+          <target state="translated">줄 번호 표시</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage LineNumbersSettings ToggleSwitch Off display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_LineNumbersSettings_ToggleSwitch.OnContent" translate="yes" xml:space="preserve">
+          <source>Display line numbers</source>
+          <target state="translated">줄 번호 표시</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage LineNumbersSettings ToggleSwitch On display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_FontStyleSettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Default Font Style</source>
+          <target state="translated">기본 글자 서식</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage FontStyleSettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="TextAndEditorPage_FontWeightSettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Default Font Weight</source>
+          <target state="translated">기본 글자 굵기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextAndEditorPage FontWeightSettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_LanguagePreferenceSettings_Description.Text" translate="yes" xml:space="preserve">
+          <source>Choose a custom language to override system default language used in Notepads. Restart is required to complete changes.</source>
+          <target state="translated">메모장에서 시스템 기본 언어를 무시하고 사용할 언어를 지정하십시오. 변경 사항을 적용하려면 앱을 재시작해야 합니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage LanguagePreferenceSettings Description display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_LanguagePreferenceSettings_RestartPrompt.Text" translate="yes" xml:space="preserve">
+          <source>*Restart Notepads to complete changes.</source>
+          <target state="translated">*변경 사항을 적용하려면 앱을 재시작하십시오.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage LanguagePreferenceSettings RestartPrompt display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_LanguagePreferenceSettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Language Preferences</source>
+          <target state="translated">언어 설정</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage LanguagePreferenceSettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_SmartCopySettings_Description.Text" translate="yes" xml:space="preserve">
+          <source>Once enabled, Notepads will smartly trim leading and trailing spaces, tabs, and empty lines before copying the selected text to the clipboard.</source>
+          <target state="translated">사용하면 메모장에서는 선택한 글자를 클립보드로 복사하기 전에 앞뒤의 공백, 탭, 빈 줄을 제거합니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage SmartCopySettings Description display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_SmartCopySettings_EnableSmartCopyToggleSwitch.OffContent" translate="yes" xml:space="preserve">
+          <source>Enable Smart Copy</source>
+          <target state="translated">스마트 복사 사용</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage SmartCopySettings EnableSmartCopyToggleSwitch Off display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_SmartCopySettings_EnableSmartCopyToggleSwitch.OnContent" translate="yes" xml:space="preserve">
+          <source>Enable Smart Copy</source>
+          <target state="translated">스마트 복사 사용</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage SmartCopySettings EnableSmartCopyToggleSwitch On display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_SmartCopySettings_Title.Text" translate="yes" xml:space="preserve">
+          <source>Smart Copy Settings</source>
+          <target state="translated">스마트 복사 설정</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage SmartCopySettings Title display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_LanguagePreferenceSettings_SystemDefaultText" translate="yes" xml:space="preserve">
+          <source>System Default</source>
+          <target state="translated">시스템 </target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage LanguagePreferenceSettings System Default option text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_LaunchPreferenceSettings_ExitWhenLastTabClosedToggleSwitch.OffContent" translate="yes" xml:space="preserve">
+          <source>Exit app when closing last tab</source>
+          <target state="translated">마지막 탭 닫아도 앱 끝내지않기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage AppLifecyclePreferenceSettings ExitingLastTabClosesWindowToggleSwitch Off display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_LaunchPreferenceSettings_ExitWhenLastTabClosedToggleSwitch.OnContent" translate="yes" xml:space="preserve">
+          <source>Exit app when closing last tab</source>
+          <target state="translated">마지막 탭 닫으면 앱 끝내기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage AppLifecyclePreferenceSettings ExitingLastTabClosesWindowToggleSwitch On display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_LaunchPreferenceSettings_NewFileSuffixToggleSwitch.OffContent" translate="yes" xml:space="preserve">
+          <source>Untitled name only</source>
+          <target state="translated">새 문서 이름만</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage LaunchPreferenceSettings NewFileSuffix OnOffToggleSwitch Off display text.</note>
+        </trans-unit>
+        <trans-unit id="AdvancedPage_LaunchPreferenceSettings_NewFileSuffixToggleSwitch.OnContent" translate="yes" xml:space="preserve">
+          <source>Add date time suffix to Untiled name</source>
+          <target state="translated">새 문서 이름 끝에 날짜시간</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AdvancedPage LaunchPreferenceSettings NewFileSuffix OnOffToggleSwitch On display text.</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+  <file datatype="xml" source-language="en-US" target-language="ko-KR" original="NOTEPADS/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="1.0.0.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="NOTEPADS/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="AppCloseSaveReminderDialog_CloseButtonText" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="translated">취소</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AppCloseSaveReminderDialog: CloseButtonText.</note>
+        </trans-unit>
+        <trans-unit id="AppCloseSaveReminderDialog_Content" translate="yes" xml:space="preserve">
+          <source>There are unsaved changes.</source>
+          <target state="translated">저장하지 않은 변경 사항이 있습니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AppCloseSaveReminderDialog: "Content" display text.</note>
+        </trans-unit>
+        <trans-unit id="AppCloseSaveReminderDialog_PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Save All &amp; Exit</source>
+          <target state="translated">모두 저장</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AppCloseSaveReminderDialog: PrimaryButtonText.</note>
+        </trans-unit>
+        <trans-unit id="AppCloseSaveReminderDialog_SecondaryButtonText" translate="yes" xml:space="preserve">
+          <source>Discard &amp; Exit</source>
+          <target state="translated">저장하지 않고 종료</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AppCloseSaveReminderDialog: SecondaryButtonText.</note>
+        </trans-unit>
+        <trans-unit id="AppCloseSaveReminderDialog_Title" translate="yes" xml:space="preserve">
+          <source>Do you want to save the changes?</source>
+          <target state="translated">변경 사항을 저장하시겠습니까?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">AppCloseSaveReminderDialog: "Title" display text.</note>
+        </trans-unit>
+        <trans-unit id="ContentSharing_FailureDisplayText" translate="yes" xml:space="preserve">
+          <source>Nothing to share because no text is selected and current document is empty.</source>
+          <target state="translated">선택된 텍스트가 없고 현재 문서가 비어 있기 때문에 공유할 것이 없습니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ContentSharing: Failure message when user trying to share empty content.</note>
+        </trans-unit>
+        <trans-unit id="DiffViewer_Header_NewTextTittle.Text" translate="yes" xml:space="preserve">
+          <source>After your changes</source>
+          <target state="translated">변경 후</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">DiffViewer: Header's text for new text (After changes).</note>
+        </trans-unit>
+        <trans-unit id="DiffViewer_Header_OldTextTittle.Text" translate="yes" xml:space="preserve">
+          <source>Before your changes</source>
+          <target state="translated">변경 전</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">DiffViewer: Header's text for old text (Before changes).</note>
+        </trans-unit>
+        <trans-unit id="ErrorMessage_NotepadsFileSizeLimit" translate="yes" xml:space="preserve">
+          <source>Notepads does not support file greater than 1MB at this moment.</source>
+          <target state="translated">Notepads 는 현재 1MB 이상의 파일을 지원하지 않습니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">ErrorMessage: NotepadsFileSizeLimit text.</note>
+        </trans-unit>
+        <trans-unit id="FileOpenErrorDialog_Content" translate="yes" xml:space="preserve">
+          <source>Sorry, file "{0}" couldn't be opened: {1}</source>
+          <target state="translated">파일 "{0}" 을 열 수 없습니다: {1}</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FileOpenErrorDialog: "Content" display text, {0} stands for file path, {1} stands for error message. You can change the order but DO NOT REMOVE them from the string.</note>
+        </trans-unit>
+        <trans-unit id="FileOpenErrorDialog_PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="translated">확인</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FileOpenErrorDialog: PrimaryButtonText.</note>
+        </trans-unit>
+        <trans-unit id="FileOpenErrorDialog_Title" translate="yes" xml:space="preserve">
+          <source>File Open Error</source>
+          <target state="translated">파일 열기 오류</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FileOpenErrorDialog: "Title" display text.</note>
+        </trans-unit>
+        <trans-unit id="FileSaveErrorDialog_Content" translate="yes" xml:space="preserve">
+          <source>Sorry, file "{0}" couldn't be saved: {1}</source>
+          <target state="translated">파일 "{0}" 을 저장할 수 없습니다: {1}</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FileSaveErrorDialog: "Content" display text, {0} stands for file path, {1} stands for error message. You can change the order but DO NOT REMOVE them from the string.</note>
+        </trans-unit>
+        <trans-unit id="FileSaveErrorDialog_PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="translated">확인</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FileSaveErrorDialog: PrimaryButtonText.</note>
+        </trans-unit>
+        <trans-unit id="FileSaveErrorDialog_Title" translate="yes" xml:space="preserve">
+          <source>File Save Error</source>
+          <target state="translated">파일 저장 오류</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FileSaveErrorDialog: "Title" display text.</note>
+        </trans-unit>
+        <trans-unit id="FindAndReplace_DismissButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Close</source>
+          <target state="translated">닫기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FindAndReplace: "Dismiss" button tool tip display text.</note>
+        </trans-unit>
+        <trans-unit id="FindAndReplace_FindBar.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Find</source>
+          <target state="translated">찾기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FindAndReplace: Find bar placeholder text.</note>
+        </trans-unit>
+        <trans-unit id="FindAndReplace_NotificationMsg_NotFound" translate="yes" xml:space="preserve">
+          <source>Not Found</source>
+          <target state="translated">찾지 못함</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FindAndReplace: Notification message when target not found.</note>
+        </trans-unit>
+        <trans-unit id="FindAndReplace_ReplaceAllButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Replace All (Ctrl+Alt+Enter)</source>
+          <target state="translated">모두 바꾸기 (Ctrl+Alt+Enter)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FindAndReplace: "Replace All" button tool tip display text.</note>
+        </trans-unit>
+        <trans-unit id="FindAndReplace_ReplaceBar.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Replace</source>
+          <target state="translated">바꾸기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FindAndReplace: Replace bar placeholder text.</note>
+        </trans-unit>
+        <trans-unit id="FindAndReplace_ReplaceButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Replace (Alt+R)</source>
+          <target state="translated">바꾸기 (Alt+R)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FindAndReplace: "Replace" button tool tip display text.</note>
+        </trans-unit>
+        <trans-unit id="FindAndReplace_SearchForwardButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Find Next (F3)</source>
+          <target state="translated">다음 찾기 (F3)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FindAndReplace: "Find Next" button tool tip display text.</note>
+        </trans-unit>
+        <trans-unit id="FindAndReplace_SearchOptionButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Search Options</source>
+          <target state="translated">검색 옵션</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FindAndReplace: "SearchOptions" button tool tip display text.</note>
+        </trans-unit>
+        <trans-unit id="FindAndReplace_SearchOptionToggleButton_MatchCase.Text" translate="yes" xml:space="preserve">
+          <source>Match Case</source>
+          <target state="translated">대소문자 구분</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FindAndReplace: "Match Case" OptionToggleButton display text.</note>
+        </trans-unit>
+        <trans-unit id="FindAndReplace_SearchOptionToggleButton_MatchWholeWord.Text" translate="yes" xml:space="preserve">
+          <source>Match Whole Word</source>
+          <target state="translated">단어 단위로</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FindAndReplace: "Match Whole Word" OptionToggleButton display text.</note>
+        </trans-unit>
+        <trans-unit id="MainMenu_Button_Find.Text" translate="yes" xml:space="preserve">
+          <source>Find...</source>
+          <target state="translated">검색...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainMenu: "Find" button display text.</note>
+        </trans-unit>
+        <trans-unit id="MainMenu_Button_New.Text" translate="yes" xml:space="preserve">
+          <source>New</source>
+          <target state="translated">새 파일</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainMenu: "New" button display text.</note>
+        </trans-unit>
+        <trans-unit id="MainMenu_Button_Open.Text" translate="yes" xml:space="preserve">
+          <source>Open...</source>
+          <target state="translated">열기...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainMenu: "Open" button display text.</note>
+        </trans-unit>
+        <trans-unit id="MainMenu_Button_Print.Text" translate="yes" xml:space="preserve">
+          <source>Print...</source>
+          <target state="translated">출력...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainMenu: "Print" button display text.</note>
+        </trans-unit>
+        <trans-unit id="MainMenu_Button_Replace.Text" translate="yes" xml:space="preserve">
+          <source>Replace...</source>
+          <target state="translated">바꾸기...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainMenu: "Replace" button display text.</note>
+        </trans-unit>
+        <trans-unit id="MainMenu_Button_Save.Text" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="translated">저장</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainMenu: "Save" button display text.</note>
+        </trans-unit>
+        <trans-unit id="MainMenu_Button_SaveAll.Text" translate="yes" xml:space="preserve">
+          <source>Save All</source>
+          <target state="translated">모두 저장</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainMenu: "Save All" button display text.</note>
+        </trans-unit>
+        <trans-unit id="MainMenu_Button_SaveAs.Text" translate="yes" xml:space="preserve">
+          <source>Save As...</source>
+          <target state="translated">다른 이름으로 저장...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainMenu: "Save As" button display text.</note>
+        </trans-unit>
+        <trans-unit id="MainMenu_Button_Settings.Text" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="translated">설정</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainMenu: "Settings" button display text.</note>
+        </trans-unit>
+        <trans-unit id="RevertAllChangesConfirmationDialog_CloseButtonText" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="translated">취소</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">RevertAllChangesConfirmationDialog: CloseButtonText.</note>
+        </trans-unit>
+        <trans-unit id="RevertAllChangesConfirmationDialog_Content" translate="yes" xml:space="preserve">
+          <source>All changes including text, line ending and encoding made to "{0}" will be reverted!</source>
+          <target state="translated">파일 "{0}" 의 모든 변경 사항이 원래대로 돌아갑니다!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">RevertAllChangesConfirmationDialog: "Content" display text, {0} stands for file name. You can change the order but DO NOT REMOVE it from the string.</note>
+        </trans-unit>
+        <trans-unit id="RevertAllChangesConfirmationDialog_PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">확인</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">RevertAllChangesConfirmationDialog: PrimaryButtonText.</note>
+        </trans-unit>
+        <trans-unit id="RevertAllChangesConfirmationDialog_Title" translate="yes" xml:space="preserve">
+          <source>Are you sure to revert all changes?</source>
+          <target state="translated">정말 모든 변경 사항을 취소하시겠습니까?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">RevertAllChangesConfirmationDialog: "Title" display text.</note>
+        </trans-unit>
+        <trans-unit id="SetCloseSaveReminderDialog_CloseButtonText" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="translated">취소</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SetCloseSaveReminderDialog: CloseButtonText.</note>
+        </trans-unit>
+        <trans-unit id="SetCloseSaveReminderDialog_Content" translate="yes" xml:space="preserve">
+          <source>Save file "{0}"?</source>
+          <target state="translated">"{0}"에 저장하시겠습니까?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SetCloseSaveReminderDialog: "Content" display text.  {0} stands for file name/path. You can change the order but DO NOT REMOVE it from the string.</note>
+        </trans-unit>
+        <trans-unit id="SetCloseSaveReminderDialog_PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="translated">저장</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SetCloseSaveReminderDialog: PrimaryButtonText.</note>
+        </trans-unit>
+        <trans-unit id="SetCloseSaveReminderDialog_SecondaryButtonText" translate="yes" xml:space="preserve">
+          <source>Don't Save</source>
+          <target state="translated">저장하지 않음</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SetCloseSaveReminderDialog: SecondaryButtonText.</note>
+        </trans-unit>
+        <trans-unit id="SetCloseSaveReminderDialog_Title" translate="yes" xml:space="preserve">
+          <source>Save your changes?</source>
+          <target state="translated">변경 사항을 저장하시겠습니까?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">SetCloseSaveReminderDialog: "Title" display text.</note>
+        </trans-unit>
+        <trans-unit id="Tab_ContextFlyout_CloseButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Close</source>
+          <target state="translated">닫기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tab: ContextFlyout "Close" button display text.</note>
+        </trans-unit>
+        <trans-unit id="Tab_ContextFlyout_CloseOthersButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Close Others</source>
+          <target state="translated">다른 파일들 닫기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tab: ContextFlyout "Close Others" button display text.</note>
+        </trans-unit>
+        <trans-unit id="Tab_ContextFlyout_CloseRightButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Close to the Right</source>
+          <target state="translated">오른쪽 파일 닫기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tab: ContextFlyout "Close to the Right" button display text.</note>
+        </trans-unit>
+        <trans-unit id="Tab_ContextFlyout_CloseSavedButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Close Saved</source>
+          <target state="translated">저장된 파일 닫기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tab: ContextFlyout "Close Saved" button display text.</note>
+        </trans-unit>
+        <trans-unit id="Tab_ContextFlyout_CopyFullPathButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Copy Full Path</source>
+          <target state="translated">파일 경로 복사</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tab: ContextFlyout "Copy Full Path" button display text.</note>
+        </trans-unit>
+        <trans-unit id="Tab_ContextFlyout_OpenContainingFolderButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Open Containing Folder</source>
+          <target state="translated">저장된 폴더 열기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Tab: ContextFlyout "Open Containing Folder" button display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_ContextFlyout_CopyButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <target state="translated">복사</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: ContextFlyout "Copy" button display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_ContextFlyout_CutButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Cut</source>
+          <target state="translated">잘라내기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: ContextFlyout "Cut" button display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_ContextFlyout_PasteButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Paste</source>
+          <target state="translated">붙여넣기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: ContextFlyout "Paste" button display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_ContextFlyout_PreviewToggleDisplay_Text" translate="yes" xml:space="preserve">
+          <source>Toggle Preview</source>
+          <target state="translated">미리보기 전환</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: ContextFlyout "Toggle Preview" button display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_ContextFlyout_RedoButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Redo</source>
+          <target state="translated">다시 실행</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: ContextFlyout "Redo" button display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_ContextFlyout_SelectAllButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Select All</source>
+          <target state="translated">모두 선택</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: ContextFlyout "Select All" button display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_ContextFlyout_ShareButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Share</source>
+          <target state="translated">공유</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: ContextFlyout "Share" button display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_ContextFlyout_ShareSelectedButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Share Selected</source>
+          <target state="translated">선택 공유</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: ContextFlyout "Share Selected" button display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_ContextFlyout_UndoButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Undo</source>
+          <target state="translated">실행 취소</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: ContextFlyout "Undo" button display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_ContextFlyout_WordWrapButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Word Wrap</source>
+          <target state="translated">자동 줄바꿈</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: ContextFlyout "Word Wrap" toggle button display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_DefaultNewFileName" translate="yes" xml:space="preserve">
+          <source>Untitled.txt</source>
+          <target state="translated">새 문서.txt</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: Default file name for new document.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_LineColumnIndicator_FullText" translate="yes" xml:space="preserve">
+          <source>Ln {0}, Col {1} ({2} {3})</source>
+          <target state="needs-review-translation">Ln {0}, Col {1} ({2} {3})</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: LineColumnIndicator display text when character(s) is(are) selected. {0} stands for line number, {1} stands for column index, {2} stands for number of selected characters, {3} stands for "selected" (based on singular and plural). You can change the order but DO NOT REMOVE them from the string.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_LineColumnIndicator_ShortText" translate="yes" xml:space="preserve">
+          <source>Ln {0}, Col {1}</source>
+          <target state="needs-review-translation">Ln {0}, Col {1}</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: LineColumnIndicator display text when no character is selected. {0} stands for line number, {1} stands for column index. You can change the order but DO NOT REMOVE them from the string.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_ModificationIndicator_MenuFlyoutItem_PreviewTextChanges.Text" translate="yes" xml:space="preserve">
+          <source>Preview text changes</source>
+          <target state="translated">변경 내용 미리보기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: ModificationIndicator "PreviewTextChanges" MenuFlyoutItem display text. DiffViewer will be shown upon selection.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_ModificationIndicator_MenuFlyoutItem_RevertAllChanges.Text" translate="yes" xml:space="preserve">
+          <source>Revert all changes</source>
+          <target state="translated">모든 변경 사항 취소</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: ModificationIndicator "RevertAllChanges" MenuFlyoutItem display text. All changes including text, encoding and line ending will be reverted to original state upon selection.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_ModificationIndicator_Text" translate="yes" xml:space="preserve">
+          <source>Modified</source>
+          <target state="translated">수정 후</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: ModificationIndicator display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_NotificationMsg_FileNameOrPathCopied" translate="yes" xml:space="preserve">
+          <source>Copied</source>
+          <target state="translated">복사됨</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: Notification message when user tap or click file name/path on status bar (Bottom left corner).</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_NotificationMsg_FileSaved" translate="yes" xml:space="preserve">
+          <source>Saved</source>
+          <target state="translated">저장됨</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: Notification message when file has been saved successfully.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_NotificationMsg_ExitFullScreenHint" translate="yes" xml:space="preserve">
+          <source>Press F11 to exit full screen</source>
+          <target state="translated">전체 화면을 종료하려면 F11을 누르세요</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: Notification message when app entering full screen mode.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_FileModifiedOutsideIndicator_MenuFlyoutItem_ReloadFileFromDisk.Text" translate="yes" xml:space="preserve">
+          <source>Reload file from disk</source>
+          <target state="translated">디스크에서 파일 다시 로드</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: FileModifiedOutsideIndicator "ReloadFileFromDisk" MenuFlyoutItem display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_FileModifiedOutsideIndicator_ToolTip" translate="yes" xml:space="preserve">
+          <source>File has been modified externally</source>
+          <target state="translated">파일이 외부에서 변경되었습니다!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: FileModifiedOutsideIndicator tool tip display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_FileRenamedMovedOrDeletedIndicator_ToolTip" translate="yes" xml:space="preserve">
+          <source>File has been moved, renamed or deleted!</source>
+          <target state="translated">파일이 이동, 이름 변경 또는 삭제되었습니다!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: FileRenamedMovedOrDeletedIndicator tool tip display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_NotificationMsg_FileReloaded" translate="yes" xml:space="preserve">
+          <source>File reloaded</source>
+          <target state="translated">파일 다시 로드됨</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: Notification message when file has been reloaded successfully.</note>
+        </trans-unit>
+        <trans-unit id="App_EnterCompactOverlayMode_Text" translate="yes" xml:space="preserve">
+          <source>Compact Overlay</source>
+          <target state="translated">간결히 보기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">App: "Compact Overlay" display text</note>
+        </trans-unit>
+        <trans-unit id="App_EnterFullScreenMode_Text" translate="yes" xml:space="preserve">
+          <source>Full Screen</source>
+          <target state="translated">전체화면</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">App: "Full Screen" display text</note>
+        </trans-unit>
+        <trans-unit id="App_ExitCompactOverlayMode_Text" translate="yes" xml:space="preserve">
+          <source>Exit Compact Overlay</source>
+          <target state="translated">간결히 보기 종료</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">App: "Exit Compact Overlay" display text</note>
+        </trans-unit>
+        <trans-unit id="App_ExitFullScreenMode_Text" translate="yes" xml:space="preserve">
+          <source>Exit Full Screen</source>
+          <target state="translated">전체 화면 종료</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">App: "Exit Full Screen" display text</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_LineColumnIndicator_FullText_PluralSelectedWord" translate="yes" xml:space="preserve">
+          <source>selected</source>
+          <target state="translated">선택한 문자</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: Plural form for the selected word count indicator. Leave it with the same value of SingularSelectedWord if your language doesen't have a plural form.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_LineColumnIndicator_FullText_SingularSelectedWord" translate="yes" xml:space="preserve">
+          <source>selected</source>
+          <target state="translated">선택한 문자</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: Singular form for the selected word count indicator.</note>
+        </trans-unit>
+        <trans-unit id="App_DragAndDrop_UIOverride_Caption_MoveTabHere" translate="yes" xml:space="preserve">
+          <source>Move tab here</source>
+          <target state="translated">탭을 여기로 이동</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">App: DragAndDrop UIOverride Caption: "Move tab here" display text</note>
+        </trans-unit>
+        <trans-unit id="App_DragAndDrop_UIOverride_Caption_OpenWithNotepads" translate="yes" xml:space="preserve">
+          <source>Open with Notepads</source>
+          <target state="translated">Notepads로 열기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">App: DragAndDrop UIOverride Caption: "Open with Notepads" display text</note>
+        </trans-unit>
+        <trans-unit id="App_ShadowWindowIndicator_Description" translate="yes" xml:space="preserve">
+          <source>This is a shadow window of Notepads. Session snapshot and settings are disabled.</source>
+          <target state="translated">이 창은 Shadow Window입니다. 세션 스냅샷 설정이 비활성화 되었습니다.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">App: ShadowWindowIndicator Description display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_NotificationMsg_FileAlreadyOpened" translate="yes" xml:space="preserve">
+          <source>File already opened!</source>
+          <target state="translated">파일이 이미 열려있습니다!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: Notification message when file has been opened in current app instance.</note>
+        </trans-unit>
+        <trans-unit id="JumpList_Tasks_NewWindow_Description" translate="yes" xml:space="preserve">
+          <source>Opens a new window</source>
+          <target state="translated">새 창</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">JumpList: Windows Taskbar JumpList Items "New window" item description display text.</note>
+        </trans-unit>
+        <trans-unit id="JumpList_Tasks_NewWindow_Title" translate="yes" xml:space="preserve">
+          <source>New window</source>
+          <target state="translated">새 창을 엽니다</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">JumpList: Windows Taskbar JumpList Items "New window" item display text.</note>
+        </trans-unit>
+        <trans-unit id="MainMenu_Button_New_Window.Text" translate="yes" xml:space="preserve">
+          <source>New Window</source>
+          <target state="translated">새 창</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainMenu: "New Window" button display text.</note>
+        </trans-unit>
+        <trans-unit id="MainMenu_Button_Open_Recent.Text" translate="yes" xml:space="preserve">
+          <source>Open Recent</source>
+          <target state="translated">최근 항목</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainMenu: "Open Recent" button display text.</note>
+        </trans-unit>
+        <trans-unit id="GoTo_GoToBar.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Go To Line</source>
+          <target state="translated">이동할 줄 번호</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GoTo: Go to bar placeholder text.</note>
+        </trans-unit>
+        <trans-unit id="GoTo_GoToBarLabel.Text" translate="yes" xml:space="preserve">
+          <source>Go To:</source>
+          <target state="translated">이동: </target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GoTo: Go to bar label</note>
+        </trans-unit>
+        <trans-unit id="GoTo_NotificationMsg_InputError_ExceedInputLimit" translate="yes" xml:space="preserve">
+          <source>Line number exceeds beyond the total number of lines!</source>
+          <target state="translated">줄 번호가 이 파일의 줄 수를 초과합니다!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GoTo: Notification message when input exceeds input limit.</note>
+        </trans-unit>
+        <trans-unit id="GoTo_NotificationMsg_InputError_InvalidInput" translate="yes" xml:space="preserve">
+          <source>You can only type a number!</source>
+          <target state="translated">숫자만 입력할 수 있습니다!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GoTo: Notification message when invalid input entered.</note>
+        </trans-unit>
+        <trans-unit id="GoTo_SearchButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Go To Line</source>
+          <target state="translated">줄 번호로 이동</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">GoTo: "Search" button tool tip display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_ContextFlyout_WebSearchButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Search in web</source>
+          <target state="translated">웹에서 검색</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: ContextFlyout "Web Search" button display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_FontZoomIndicator_FlyoutItem_RestoreDefaultZoom.Label" translate="yes" xml:space="preserve">
+          <source>Restore Default Zoom</source>
+          <target state="translated">기본 확대/ 복원</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: FontZoomIndicator "Restore Default Zoom" FlyoutItem display text. Restores to default zoom for selected text editor.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_FontZoomIndicator_FlyoutItem_ZoomIn.Label" translate="yes" xml:space="preserve">
+          <source>Zoom In</source>
+          <target state="translated">확대</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: FontZoomIndicator "ZoomIn" FlyoutItem display text. Zooms in selected text editor text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_FontZoomIndicator_FlyoutItem_ZoomOut.Label" translate="yes" xml:space="preserve">
+          <source>Zoom Out</source>
+          <target state="translated">축소</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: FontZoomIndicator "ZoomOut" FlyoutItem display text. Zooms out selected text editor text.</note>
+        </trans-unit>
+        <trans-unit id="FindAndReplace_SearchOptionToggleButton_UseRegex.Text" translate="yes" xml:space="preserve">
+          <source>Use Regular Expression</source>
+          <target state="translated">정규식 사용</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FindAndReplace: "Use Regular Expression" OptionToggleButton display text.</note>
+        </trans-unit>
+        <trans-unit id="MainMenu_Button_PrintAll.Text" translate="yes" xml:space="preserve">
+          <source>Print All...</source>
+          <target state="translated">모두 출력...</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainMenu: "Print All" button display text.</note>
+        </trans-unit>
+        <trans-unit id="Print_ErrorMsg_DecimalOutOfRange" translate="yes" xml:space="preserve">
+          <source>Can only accept upto one decimal place</source>
+          <target state="translated">소수점 이하 1자리까지만 허용</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Print: Error message when decimal places for margin entry exceeds limit.</note>
+        </trans-unit>
+        <trans-unit id="Print_ErrorMsg_ValueOutOfRange" translate="yes" xml:space="preserve">
+          <source>Value out of range</source>
+          <target state="translated">값이 범위를 벗어났습니다</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Print: Error message when value for margin entry exceeds limit.</note>
+        </trans-unit>
+        <trans-unit id="Print_FooterEntry_Title" translate="yes" xml:space="preserve">
+          <source>Footer</source>
+          <target state="translated">꼬리말</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Print: PrintManager custom option "FooterText" title.</note>
+        </trans-unit>
+        <trans-unit id="Print_HeaderEntry_Title" translate="yes" xml:space="preserve">
+          <source>Header</source>
+          <target state="translated">머리말</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Print: PrintManager custom option "HeaderText" title.</note>
+        </trans-unit>
+        <trans-unit id="Print_LeftMarginEntry_Title" translate="yes" xml:space="preserve">
+          <source>Horizontal Margin (in %)</source>
+          <target state="translated">가로 여백 (%)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Print: PrintManager custom option "LeftMargin" title.</note>
+        </trans-unit>
+        <trans-unit id="Print_MarginEntry_Description" translate="yes" xml:space="preserve">
+          <source>In % of paper width</source>
+          <target state="translated">용지 너비의 %</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Print: PrintManager custom option "LeftMargin" and "TopMargin" description.</note>
+        </trans-unit>
+        <trans-unit id="Print_NotificationMsg_PrintError" translate="yes" xml:space="preserve">
+          <source>Error printing:</source>
+          <target state="translated">출력 중 오류:</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Print: Notification message when error occurs while showing print ui.</note>
+        </trans-unit>
+        <trans-unit id="Print_NotificationMsg_PrintFailed" translate="yes" xml:space="preserve">
+          <source>Failed to print</source>
+          <target state="translated">출력에 실패했습니다</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Print: Notification message on print failure.</note>
+        </trans-unit>
+        <trans-unit id="Print_NotificationMsg_PrintNotSupported" translate="yes" xml:space="preserve">
+          <source>Printing is not supported on this device</source>
+          <target state="translated">이 장치에서 인쇄가 지원되지 않습니다</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Print: Notification message when printing attempted in a non-supported device.</note>
+        </trans-unit>
+        <trans-unit id="Print_TopMarginEntry_Title" translate="yes" xml:space="preserve">
+          <source>Vertical Margin (in %)</source>
+          <target state="translated">수직 여백 (%)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Print: PrintManager custom option "TopMargin" title.</note>
+        </trans-unit>
+        <trans-unit id="MainMenu_Button_Open_Recent_ClearRecentlyOpenedSubItem_Text" translate="yes" xml:space="preserve">
+          <source>Clear Recently Opened</source>
+          <target state="translated">최근 항목 지우기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">MainMenu: "Open Recent" button ClearRecentlyOpenedSubItem display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_EncodingIndicator_FlyoutItem_MoreEncodings" translate="yes" xml:space="preserve">
+          <source>More Encodings</source>
+          <target state="translated">더보기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: EncodingIndicator "More Encodings" FlyoutItem display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_EncodingIndicator_FlyoutItem_ReopenWithEncoding" translate="yes" xml:space="preserve">
+          <source>Reopen with Encoding</source>
+          <target state="translated">인코딩하여 다시 열기</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: EncodingIndicator "Reopen with Encoding" FlyoutItem display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_EncodingIndicator_FlyoutItem_SaveWithEncoding" translate="yes" xml:space="preserve">
+          <source>Save with Encoding</source>
+          <target state="translated">인코딩하여 저장</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: EncodingIndicator "Save with Encoding" FlyoutItem display text.</note>
+        </trans-unit>
+        <trans-unit id="FindAndReplace_NotificationMsg_InvalidRegex" translate="yes" xml:space="preserve">
+          <source>Invalid regular expression!</source>
+          <target state="translated">유효하지 않은 정규식입니다!</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FindAndReplace: Notification message when regular expression text is invalid.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_EncodingIndicator_FlyoutItem_AutoGuessEncoding" translate="yes" xml:space="preserve">
+          <source>Auto Guess Encoding</source>
+          <target state="translated">자동으로 인코딩 결정</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: EncodingIndicator "Auto Guess Encoding" FlyoutItem display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_NotificationMsg_EncodingCannotBeDetermined" translate="yes" xml:space="preserve">
+          <source>Encoding cannot be determined</source>
+          <target state="translated">인코딩을 결정할 수 없습니다</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: Notification message when file's encoding cannot be determined.</note>
+        </trans-unit>
+        <trans-unit id="FindAndReplace_SearchBackwardButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Find Previous (Shift+F3)</source>
+          <target state="translated">이전 찾기 (Shift+F3)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FindAndReplace: "Find Previous" button tool tip display text.</note>
+        </trans-unit>
+        <trans-unit id="FindAndReplace_ToggleReplaceModeButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Toggle Replace Mode</source>
+          <target state="translated">바꾸기 모드 토글</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FindAndReplace: "Toggle Replace Mode" button tool tip display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_ContextFlyout_RightToLeftReadingOrderButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Right-to-Left Reading order</source>
+          <target state="translated">RTL 읽기 순서</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: ContextFlyout "Right-to-Left Reading order" toggle button display text.</note>
+        </trans-unit>
+        <trans-unit id="FontStyle_Italic" translate="yes" xml:space="preserve">
+          <source>Italic</source>
+          <target state="needs-review-translation">Italic</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FontStyle: "Italic"</note>
+        </trans-unit>
+        <trans-unit id="FontStyle_Normal" translate="yes" xml:space="preserve">
+          <source>Normal</source>
+          <target state="needs-review-translation">Normal</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FontStyle: "Normal"</note>
+        </trans-unit>
+        <trans-unit id="FontStyle_Oblique" translate="yes" xml:space="preserve">
+          <source>Oblique</source>
+          <target state="needs-review-translation">Oblique</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FontStyle: "Oblique"</note>
+        </trans-unit>
+        <trans-unit id="FontWeight_Black" translate="yes" xml:space="preserve">
+          <source>Black</source>
+          <target state="needs-review-translation">Black</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FontWeight: "Black"</note>
+        </trans-unit>
+        <trans-unit id="FontWeight_Bold" translate="yes" xml:space="preserve">
+          <source>Bold</source>
+          <target state="needs-review-translation">Bold</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FontWeight: "Bold"</note>
+        </trans-unit>
+        <trans-unit id="FontWeight_ExtraBlack" translate="yes" xml:space="preserve">
+          <source>Extra Black</source>
+          <target state="needs-review-translation">Extra Black</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FontWeight: "ExtraBlack"</note>
+        </trans-unit>
+        <trans-unit id="FontWeight_ExtraBold" translate="yes" xml:space="preserve">
+          <source>Extra Bold</source>
+          <target state="needs-review-translation">Extra Bold</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FontWeight: "ExtraBold"</note>
+        </trans-unit>
+        <trans-unit id="FontWeight_ExtraLight" translate="yes" xml:space="preserve">
+          <source>Extra Light</source>
+          <target state="needs-review-translation">Extra Light</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FontWeight: "ExtraLight"</note>
+        </trans-unit>
+        <trans-unit id="FontWeight_Light" translate="yes" xml:space="preserve">
+          <source>Light</source>
+          <target state="needs-review-translation">Light</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FontWeight: "Light"</note>
+        </trans-unit>
+        <trans-unit id="FontWeight_Medium" translate="yes" xml:space="preserve">
+          <source>Medium</source>
+          <target state="needs-review-translation">Medium</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FontWeight: "Medium"</note>
+        </trans-unit>
+        <trans-unit id="FontWeight_Normal" translate="yes" xml:space="preserve">
+          <source>Normal</source>
+          <target state="needs-review-translation">Normal</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FontWeight: "Normal"</note>
+        </trans-unit>
+        <trans-unit id="FontWeight_SemiBold" translate="yes" xml:space="preserve">
+          <source>Semi Bold</source>
+          <target state="needs-review-translation">Semi Bold</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FontWeight: "SemiBold"</note>
+        </trans-unit>
+        <trans-unit id="FontWeight_SemiLight" translate="yes" xml:space="preserve">
+          <source>Semi Light</source>
+          <target state="needs-review-translation">Semi Light</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FontWeight: "SemiLight"</note>
+        </trans-unit>
+        <trans-unit id="FontWeight_Thin" translate="yes" xml:space="preserve">
+          <source>Thin</source>
+          <target state="needs-review-translation">Thin</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FontWeight: "Thin"</note>
+        </trans-unit>
+        <trans-unit id="FileRenameDialog_CloseButtonText" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="translated">취소</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FileRenameDialog: CloseButtonText.</note>
+        </trans-unit>
+        <trans-unit id="FileRenameDialog_PrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="translated">저장</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FileRenameDialog: PrimaryButtonText.</note>
+        </trans-unit>
+        <trans-unit id="FileRenameDialog_Title" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="translated">이름 변경</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FileRenameDialog: "Title" display text.</note>
+        </trans-unit>
+        <trans-unit id="InvalidFilenameError_ContainsInvalidCharacters" translate="yes" xml:space="preserve">
+          <source>File name should not contain invalid characters</source>
+          <target state="translated">파일 이름에 유효하지 않은 문자가 포함되어서는 안 됩니다</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">InvalidFilenameError: Filename contains invalid characters.</note>
+        </trans-unit>
+        <trans-unit id="InvalidFilenameError_ContainsLeadingSpaces" translate="yes" xml:space="preserve">
+          <source>File name should not contain leading spaces</source>
+          <target state="translated">파일 이름의 첫머리에 공백이 와서는 안 됩니다</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">InvalidFilenameError: Filename contains leading spaces.</note>
+        </trans-unit>
+        <trans-unit id="InvalidFilenameError_ContainsTrailingSpaces" translate="yes" xml:space="preserve">
+          <source>File name should not contain trailing spaces</source>
+          <target state="translated">파일 이름의 끝에 공백이 붙어서는 안 됩니다</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">InvalidFilenameError: Filename contains trailing spaces.</note>
+        </trans-unit>
+        <trans-unit id="InvalidFilenameError_EmptyOrAllWhitespace" translate="yes" xml:space="preserve">
+          <source>File name cannot be empty or all whitespace</source>
+          <target state="translated">파일 이름을 비워두거나 공백만으로 구성해서는 안 됩니다</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">InvalidFilenameError: Filename is empty or contains all whitespace.</note>
+        </trans-unit>
+        <trans-unit id="InvalidFilenameError_InvalidOrNotAllowed" translate="yes" xml:space="preserve">
+          <source>File name is invalid or not allowed</source>
+          <target state="translated">유효하지 않거나 허용되지 않은 파일 이름입니다</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">InvalidFilenameError: Filename is invalid or not allowed.</note>
+        </trans-unit>
+        <trans-unit id="InvalidFilenameError_TooLong" translate="yes" xml:space="preserve">
+          <source>File name cannot be longer than 255 characters</source>
+          <target state="translated">파일 이름은 255자보다 길어서는 안 됩니다</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">InvalidFilenameError: Filename is longer than 255 characters.</note>
+        </trans-unit>
+        <trans-unit id="Tab_ContextFlyout_RenameButtonDisplayText" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="translated">이름 변경</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: ContextFlyout "Rename" button display text.</note>
+        </trans-unit>
+        <trans-unit id="TextEditor_NotificationMsg_FileRenamed" translate="yes" xml:space="preserve">
+          <source>Renamed</source>
+          <target state="translated">이름 변경됨</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">TextEditor: Notification message when file has been renamed successfully.</note>
+        </trans-unit>
+        <trans-unit id="FileRenameError_EmptyFileExtension" translate="yes" xml:space="preserve">
+          <source>Empty file extension is not supported at this moment</source>
+          <target state="translated">현재는 빈 파일 확장자를 지원하지 않습니다</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FileRenameError: Empty file extension is not currently supported.</note>
+        </trans-unit>
+        <trans-unit id="FileRenameError_UnsupportedFileExtension" translate="yes" xml:space="preserve">
+          <source>File extension "{0}" is not supported at this moment</source>
+          <target state="translated"> "{0}" 파일 확장자를 지원하지 않습니다</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">FileRenameError: Extension is not currently supported. {0} stands for the file extension string.</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

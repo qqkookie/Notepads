@@ -445,13 +445,13 @@
     <value>File already opened!</value>
     <comment>TextEditor: Notification message when file has been opened in current app instance.</comment>
   </data>
+    <data name="JumpList_Tasks_NewWindow_Description" xml:space="preserve">
+    <value>Opens a new window</value>
+    <comment>JumpList: Windows Taskbar JumpList Items "New window" item description display text.</comment>
+  </data>
   <data name="JumpList_Tasks_NewWindow_Title" xml:space="preserve">
     <value>New window</value>
     <comment>JumpList: Windows Taskbar JumpList Items "New window" item display text.</comment>
-  </data>
-  <data name="JumpList_Tasks_NewWindow_Description" xml:space="preserve">
-    <value>Opens a new window</value>
-    <comment>JumpList: Windows Taskbar JumpList Items "New window" item description display text.</comment>
   </data>
   <data name="MainMenu_Button_New_Window.Text" xml:space="preserve">
     <value>New Window</value>
@@ -464,6 +464,10 @@
   <data name="GoTo_GoToBar.PlaceholderText" xml:space="preserve">
     <value>Go To Line</value>
     <comment>GoTo: Go to bar placeholder text.</comment>
+  </data>
+    <data name="GoTo_GoToBarLabel.Text" xml:space="preserve">
+    <value>Go To:</value>
+    <comment>GoTo: Go to bar label</comment>
   </data>
   <data name="GoTo_NotificationMsg_InputError_ExceedInputLimit" xml:space="preserve">
     <value>Line number exceeds beyond the total number of lines!</value>
@@ -493,10 +497,10 @@
     <value>Zoom Out</value>
     <comment>TextEditor: FontZoomIndicator "ZoomOut" FlyoutItem display text. Zooms out selected text editor text.</comment>
   </data>
-  <data name="GoTo_GoToBarLabel.Text" xml:space="preserve">
-    <value>Go To:</value>
-    <comment>GoTo: Go to bar label</comment>
-  </data>
+   <data name="FindAndReplace_SearchOptionToggleButton_UseRegex.Text" xml:space="preserve">
+    <value>Use Regular Expression</value>
+    <comment>FindAndReplace: "Use Regular Expression" OptionToggleButton display text.</comment>
+  </data> 
   <data name="MainMenu_Button_PrintAll.Text" xml:space="preserve">
     <value>Print All...</value>
     <comment>MainMenu: "Print All" button display text.</comment>
@@ -540,10 +544,6 @@
   <data name="Print_TopMarginEntry_Title" xml:space="preserve">
     <value>Vertical Margin (in %)</value>
     <comment>Print: PrintManager custom option "TopMargin" title.</comment>
-  </data>
-  <data name="FindAndReplace_SearchOptionToggleButton_UseRegex.Text" xml:space="preserve">
-    <value>Use Regular Expression</value>
-    <comment>FindAndReplace: "Use Regular Expression" OptionToggleButton display text.</comment>
   </data>
   <data name="MainMenu_Button_Open_Recent_ClearRecentlyOpenedSubItem_Text" xml:space="preserve">
     <value>Clear Recently Opened</value>
