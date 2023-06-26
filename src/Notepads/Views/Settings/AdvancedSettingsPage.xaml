@@ -95,43 +95,6 @@
                         Style="{StaticResource CustomToggleSwitchStyle}"
                         Toggled="NewFileSuffixToggleSwitch_Toggled" />
                 </StackPanel>
-                <StackPanel x:Name="LanguagePreferenceSettingsPanel">
-                    <TextBlock
-                        x:Name="LanguagePreferenceSettingsTitle"
-                        x:Uid="/Settings/AdvancedPage_LanguagePreferenceSettings_Title"
-                        Margin="0,25,0,0"
-                        FontWeight="Normal"
-                        Style="{StaticResource CompactSubtitleTextBlockStyle}" />
-                    <StackPanel x:Name="LanguagePreferenceSettingsControls" Margin="0,10,0,0">
-                        <ComboBox
-                            x:Name="LanguagePicker"
-                            Height="36"
-                            HorizontalAlignment="Stretch"
-                            VerticalAlignment="Center"
-                            Background="Transparent"
-                            BorderThickness="1"
-                            IsTextSearchEnabled="True"
-                            ItemsSource="{x:Bind SupportedLanguages, Mode=OneTime}">
-                            <ComboBox.ItemTemplate>
-                                <DataTemplate x:DataType="utilities:LanguageItem">
-                                    <TextBlock Text="{x:Bind Name}" />
-                                </DataTemplate>
-                            </ComboBox.ItemTemplate>
-                        </ComboBox>
-                        <TextBlock
-                            x:Name="RestartPrompt"
-                            x:Uid="/Settings/AdvancedPage_LanguagePreferenceSettings_RestartPrompt"
-                            Margin="0,4,0,0"
-                            Foreground="{ThemeResource SystemControlErrorTextForegroundBrush}"
-                            Style="{ThemeResource DescriptionTextBlockStyle}"
-                            TextWrapping="Wrap"
-                            Visibility="Collapsed" />
-                        <TextBlock
-                            x:Uid="/Settings/AdvancedPage_LanguagePreferenceSettings_Description"
-                            Margin="0,8,0,0"
-                            Style="{ThemeResource DescriptionTextBlockStyle}" />
-                    </StackPanel>
-                </StackPanel>
             </StackPanel>
         </ScrollViewer>
 

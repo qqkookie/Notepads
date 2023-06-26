@@ -105,8 +105,6 @@
 
             InitializeTabIndentationSettings();
 
-            InitializeSearchEngineSettings();
-
             Loaded += TextAndEditorSettings_Loaded;
         }
 
@@ -187,34 +185,6 @@
             }
         }
 
-        private void InitializeSearchEngineSettings()
-        {
-            switch (AppSettingsService.EditorDefaultSearchEngine)
-            {
-                case SearchEngine.Bing:
-                    BingRadioButton.IsChecked = true;
-                    CustomSearchUrl.IsEnabled = false;
-                    break;
-                case SearchEngine.Google:
-                    GoogleRadioButton.IsChecked = true;
-                    CustomSearchUrl.IsEnabled = false;
-                    break;
-                case SearchEngine.DuckDuckGo:
-                    DuckDuckGoRadioButton.IsChecked = true;
-                    CustomSearchUrl.IsEnabled = false;
-                    break;
-                case SearchEngine.Custom:
-                    CustomSearchUrlRadioButton.IsChecked = true;
-                    CustomSearchUrl.IsEnabled = true;
-                    break;
-            }
-
-            if (!string.IsNullOrEmpty(AppSettingsService.EditorCustomMadeSearchUrl))
-            {
-                CustomSearchUrl.Text = AppSettingsService.EditorCustomMadeSearchUrl;
-            }
-        }
-
         private void TextAndEditorSettings_Loaded(object sender, RoutedEventArgs e)
         {
             TextWrappingToggle.Toggled += TextWrappingToggle_OnToggled;
@@ -245,35 +215,6 @@
             TabTwoSpacesRadioButton.Checked += TabBehaviorRadioButton_Checked;
             TabFourSpacesRadioButton.Checked += TabBehaviorRadioButton_Checked;
             TabEightSpacesRadioButton.Checked += TabBehaviorRadioButton_Checked;
-
-            BingRadioButton.Checked += SearchEngineRadioButton_Checked;
-            GoogleRadioButton.Checked += SearchEngineRadioButton_Checked;
-            DuckDuckGoRadioButton.Checked += SearchEngineRadioButton_Checked;
-            CustomSearchUrlRadioButton.Checked += SearchEngineRadioButton_Checked;
-        }
-
-        private void SearchEngineRadioButton_Checked(object sender, RoutedEventArgs e)
-        {
-            if (!(sender is RadioButton radioButton)) return;
-
-            switch (radioButton.Name)
-            {
-                case "BingRadioButton":
-                    AppSettingsService.EditorDefaultSearchEngine = SearchEngine.Bing;
-                    OnCustomSearchEngineSelectionChanged(false);
-                    break;
-                case "GoogleRadioButton":
-                    AppSettingsService.EditorDefaultSearchEngine = SearchEngine.Google;
-                    OnCustomSearchEngineSelectionChanged(false);
-                    break;
-                case "DuckDuckGoRadioButton":
-                    AppSettingsService.EditorDefaultSearchEngine = SearchEngine.DuckDuckGo;
-                    OnCustomSearchEngineSelectionChanged(false);
-                    break;
-                case "CustomSearchUrlRadioButton":
-                    OnCustomSearchEngineSelectionChanged(true);
-                    break;
-            }
         }
 
         private void TabBehaviorRadioButton_Checked(object sender, RoutedEventArgs e)
@@ -406,71 +347,6 @@
         private void LineNumbersToggle_Toggled(object sender, RoutedEventArgs e)
         {
             AppSettingsService.EditorDisplayLineNumbers = LineNumbersToggle.IsOn;
-        }
-
-        private void CustomSearchUrl_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            AppSettingsService.EditorCustomMadeSearchUrl = CustomSearchUrl.Text;
-            CustomUrlErrorReport.Visibility = IsValidUrl(CustomSearchUrl.Text) ? Visibility.Collapsed : Visibility.Visible;
-        }
-
-        private void CustomSearchUrl_LostFocus(object sender, RoutedEventArgs e)
-        {
-            if (CustomSearchUrlRadioButton.IsChecked != null &&
-                (IsValidUrl(CustomSearchUrl.Text) && (bool)CustomSearchUrlRadioButton.IsChecked))
-            {
-                AppSettingsService.EditorDefaultSearchEngine = SearchEngine.Custom;
-            }
-            else if (!IsValidUrl(CustomSearchUrl.Text) && AppSettingsService.EditorDefaultSearchEngine == SearchEngine.Custom)
-            {
-                AppSettingsService.EditorDefaultSearchEngine = SearchEngine.Bing;
-            }
-
-            CustomUrlErrorReport.Visibility = IsValidUrl(CustomSearchUrl.Text) ? Visibility.Collapsed : Visibility.Visible;
-            AppSettingsService.EditorCustomMadeSearchUrl = CustomSearchUrl.Text;
-        }
-
-        private static bool IsValidUrl(string url)
-        {
-            try
-            {
-                if (Uri.TryCreate(url, UriKind.Absolute, out var uriResult) && (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps))
-                {
-                    if (string.Format(url, "s") == url)
-                        return false;
-                }
-                else
-                {
-                    return false;
-                }
-            }
-            catch (Exception)
-            {
-                return false;
-            }
-            return true;
-        }
-
-        private void OnCustomSearchEngineSelectionChanged(bool selected)
-        {
-            if (selected)
-            {
-                CustomSearchUrl.IsEnabled = true;
-                CustomSearchUrl.Focus(FocusState.Programmatic);
-                CustomSearchUrl.Select(CustomSearchUrl.Text.Length, 0);
-                if (IsValidUrl(CustomSearchUrl.Text))
-                {
-                    AppSettingsService.EditorDefaultSearchEngine = SearchEngine.Custom;
-                    AppSettingsService.EditorCustomMadeSearchUrl = CustomSearchUrl.Text;
-                }
-                CustomSearchUrl_TextChanged(null, null);
-            }
-            else
-            {
-                CustomSearchUrl.IsEnabled = false;
-                CustomSearchUrl.Text = AppSettingsService.EditorCustomMadeSearchUrl;
-                CustomUrlErrorReport.Visibility = Visibility.Collapsed;
-            }
         }
     }
 }

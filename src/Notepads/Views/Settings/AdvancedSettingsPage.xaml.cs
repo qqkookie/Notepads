@@ -1,17 +1,11 @@
 ﻿namespace Notepads.Views.Settings
 {
     using Notepads.Services;
-    using Notepads.Utilities;
-    using System.Collections.Generic;
-    using System.Linq;
-    using Windows.Globalization;
     using Windows.UI.Xaml;
     using Windows.UI.Xaml.Controls;
 
     public sealed partial class AdvancedSettingsPage : Page
     {
-        private readonly IReadOnlyCollection<LanguageItem> SupportedLanguages = LanguageUtility.GetSupportedLanguageItems();
-
         public AdvancedSettingsPage()
         {
             InitializeComponent();
@@ -43,9 +37,6 @@
                 LaunchPreferenceSettingsControls.Visibility = Visibility.Collapsed;
             }
 
-            LanguagePicker.SelectedItem = SupportedLanguages.FirstOrDefault(language => language.ID == ApplicationLanguages.PrimaryLanguageOverride);
-            RestartPrompt.Visibility = LanguageUtility.CurrentLanguageID == ApplicationLanguages.PrimaryLanguageOverride ? Visibility.Collapsed : Visibility.Visible;
-
             Loaded += AdvancedSettings_Loaded;
             Unloaded += AdvancedSettings_Unloaded;
         }
@@ -57,7 +48,6 @@
             EnableSessionSnapshotToggleSwitch.Toggled += EnableSessionBackupAndRestoreToggleSwitch_Toggled;
             ExitWhenLastTabClosedToggleSwitch.Toggled += ExitWhenLastTabClosedToggleSwitch_Toggled;
             AlwaysOpenNewWindowToggleSwitch.Toggled += AlwaysOpenNewWindowToggleSwitch_Toggled;
-            LanguagePicker.SelectionChanged += LanguagePicker_SelectionChanged;
         }
 
         private void AdvancedSettings_Unloaded(object sender, RoutedEventArgs e)
@@ -67,7 +57,6 @@
             EnableSessionSnapshotToggleSwitch.Toggled -= EnableSessionBackupAndRestoreToggleSwitch_Toggled;
             ExitWhenLastTabClosedToggleSwitch.Toggled -= ExitWhenLastTabClosedToggleSwitch_Toggled;
             AlwaysOpenNewWindowToggleSwitch.Toggled -= AlwaysOpenNewWindowToggleSwitch_Toggled;
-            LanguagePicker.SelectionChanged -= LanguagePicker_SelectionChanged;
         }
 
         private void EnableSmartCopyToggleSwitch_Toggled(object sender, RoutedEventArgs e)
@@ -93,15 +82,6 @@
         private void AlwaysOpenNewWindowToggleSwitch_Toggled(object sender, RoutedEventArgs e)
         {
             AppSettingsService.AlwaysOpenNewWindow = AlwaysOpenNewWindowToggleSwitch.IsOn;
-        }
-
-        private void LanguagePicker_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            var languageId = ((LanguageItem)e.AddedItems.First()).ID;
-
-            RestartPrompt.Visibility = languageId == LanguageUtility.CurrentLanguageID ? Visibility.Collapsed : Visibility.Visible;
-
-            ApplicationLanguages.PrimaryLanguageOverride = languageId;
         }
 
         private void NewFileSuffixToggleSwitch_Toggled(object sender, RoutedEventArgs e)
