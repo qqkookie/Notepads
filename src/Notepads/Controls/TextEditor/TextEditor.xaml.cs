@@ -810,7 +810,9 @@
                     TextEditorCore.Document.Selection.SetRange(cursorPosition, cursorPosition);
                 }
 
-                Clipboard.SetContentWithOptions(dataPackage, new ClipboardContentOptions() { IsAllowedInHistory = true, IsRoamable = true });
+                // Clipboard.SetContentWithOptions() call is too slow. 
+                // Clipboard.SetContentWithOptions(dataPackage, new ClipboardContentOptions() { IsAllowedInHistory = true, IsRoamable = true });
+                Clipboard.SetContent(dataPackage);
                 Clipboard.Flush(); // This method allows the content to remain available after the application shuts down.
             }
             catch (Exception ex)

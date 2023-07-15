@@ -103,19 +103,11 @@
             var textFile = new TextFile(string.Empty,
                 AppSettingsService.EditorDefaultEncoding,
                 AppSettingsService.EditorDefaultLineEnding);
-            string newFileName = fileNamePlaceholder;
-            if (AppSettingsService.NewFileSuffix)
-            {
-                // Add date time to default new filename (ex: "Untitled-12250900.txt")
-                string seq = DateTime.Now.ToString("-MMddHHmm");
-                newFileName = fileNamePlaceholder.Insert(fileNamePlaceholder.LastIndexOf("."), seq);
-            }
-
             var newEditor = CreateTextEditor(
                 Guid.NewGuid(),
                 textFile,
                 null,
-                newFileName);
+                fileNamePlaceholder);
             OpenTextEditor(newEditor);
         }
 

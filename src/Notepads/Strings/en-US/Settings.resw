@@ -429,12 +429,12 @@
     <value>Exit app when closing last tab</value>
     <comment>AdvancedPage AppLifecyclePreferenceSettings ExitingLastTabClosesWindowToggleSwitch On display text.</comment>
   </data>
-  <data name="AdvancedPage_LaunchPreferenceSettings_NewFileSuffixToggleSwitch.OffContent" xml:space="preserve">
+  <data name="AdvancedPage_LaunchPreferenceSettings_UntitledTimeStampToggleSwitch.OffContent" xml:space="preserve">
     <value>Untitled name only</value>
-    <comment>AdvancedPage LaunchPreferenceSettings NewFileSuffix OnOffToggleSwitch Off display text.</comment>
+    <comment>AdvancedPage LaunchPreferenceSettings UntitledTimeStamp OnOffToggleSwitch Off display text.</comment>
   </data>
-  <data name="AdvancedPage_LaunchPreferenceSettings_NewFileSuffixToggleSwitch.OnContent" xml:space="preserve">
+  <data name="AdvancedPage_LaunchPreferenceSettings_UntitledTimeStampToggleSwitch.OnContent" xml:space="preserve">
     <value>Add date time suffix to Untiled name</value>
-    <comment>AdvancedPage LaunchPreferenceSettings NewFileSuffix OnOffToggleSwitch On display text.</comment>
+    <comment>AdvancedPage LaunchPreferenceSettings UntitledTimeStamp OnOffToggleSwitch On display text.</comment>
   </data>
 </root>

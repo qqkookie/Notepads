@@ -89,11 +89,11 @@
                         x:Uid="/Settings/AdvancedPage_LaunchPreferenceSettings_ExitWhenLastTabClosedToggleSwitch"
                         Style="{StaticResource CustomToggleSwitchStyle}" />
                     <ToggleSwitch
-                        x:Name="NewFileSuffixToggleSwitch"
-                        x:Uid="/Settings/AdvancedPage_LaunchPreferenceSettings_NewFileSuffixToggleSwitch"
+                        x:Name="UntitledTimeStampToggleSwitch"
+                        x:Uid="/Settings/AdvancedPage_LaunchPreferenceSettings_UntitledTimeStampToggleSwitch"
                         Margin="0,10,0,0"
                         Style="{StaticResource CustomToggleSwitchStyle}"
-                        Toggled="NewFileSuffixToggleSwitch_Toggled" />
+                        Toggled="UntitledTimeStampToggleSwitch_Toggled" />
                 </StackPanel>
             </StackPanel>
         </ScrollViewer>

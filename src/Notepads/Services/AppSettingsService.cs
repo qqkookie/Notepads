@@ -296,14 +296,14 @@
             }
         }
 
-        private static bool _newFileSuffix;
-        public static bool NewFileSuffix
+        private static bool _untitledTimeStamp;
+        public static bool UntitledTimeStamp
         {
-            get => _newFileSuffix;
+            get => _untitledTimeStamp;
             set
             {
-                _newFileSuffix = value;
-                ApplicationSettingsStore.Write(SettingsKey.EditorNewFileSuffixBool, value);
+                _untitledTimeStamp = value;
+                ApplicationSettingsStore.Write(SettingsKey.EditorUntitledTimeStampBool, value);
             }
         }
 
@@ -595,13 +595,13 @@
                 _alwaysOpenNewWindow = false;
             }
 
-            if (ApplicationSettingsStore.Read(SettingsKey.EditorNewFileSuffixBool) is bool newFileSuffix)
+            if (ApplicationSettingsStore.Read(SettingsKey.EditorUntitledTimeStampBool) is bool untitledTimeStamp)
             {
-                _newFileSuffix = newFileSuffix;
+                _untitledTimeStamp = untitledTimeStamp;
             }
             else
             {
-                _newFileSuffix = true;
+                _untitledTimeStamp = true;
             }
         }
 

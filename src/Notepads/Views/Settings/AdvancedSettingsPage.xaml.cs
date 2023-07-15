@@ -26,7 +26,7 @@
 
             ExitWhenLastTabClosedToggleSwitch.IsOn = AppSettingsService.ExitWhenLastTabClosed;
             AlwaysOpenNewWindowToggleSwitch.IsOn = AppSettingsService.AlwaysOpenNewWindow;
-            NewFileSuffixToggleSwitch.IsOn = AppSettingsService.NewFileSuffix;
+            UntitledTimeStampToggleSwitch.IsOn = AppSettingsService.UntitledTimeStamp;
 
             if (App.IsGameBarWidget)
             {
@@ -84,9 +84,9 @@
             AppSettingsService.AlwaysOpenNewWindow = AlwaysOpenNewWindowToggleSwitch.IsOn;
         }
 
-        private void NewFileSuffixToggleSwitch_Toggled(object sender, RoutedEventArgs e)
+        private void UntitledTimeStampToggleSwitch_Toggled(object sender, RoutedEventArgs e)
         {
-            AppSettingsService.NewFileSuffix = NewFileSuffixToggleSwitch.IsOn;
+            AppSettingsService.UntitledTimeStamp = UntitledTimeStampToggleSwitch.IsOn;
         }
     }
 }

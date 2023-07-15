@@ -62,6 +62,13 @@
             var fileName = textEditor.EditingFileName ?? textEditor.FileNamePlaceholder;
             var extension = FileTypeUtility.GetFileExtension(fileName).ToLower();
 
+            if (textEditor.EditingFileName == null && AppSettingsService.UntitledTimeStamp)
+            {
+                // Add date time to default new filename (ex: "Untitled-12250900.txt")
+                string DTstamp = DateTime.Now.ToString("-MMddHHmm");
+                fileName = fileName.Insert(fileName.LastIndexOf("."), DTstamp);
+            }
+
             if (FileExtensionProvider.TextDocumentFileExtensions.Contains(extension, StringComparer.OrdinalIgnoreCase))
             {
                 savePicker.FileTypeChoices.Add("Text Documents", FileExtensionProvider.TextDocumentFileExtensions.ToList());

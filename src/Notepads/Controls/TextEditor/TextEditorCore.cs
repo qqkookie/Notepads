@@ -152,6 +152,10 @@
             HookExternalEvents();
 
             Window.Current.CoreWindow.Activated += OnCoreWindowActivated;
+
+            // TOTO: Added to Test
+            MaxLength = 10000000;
+            ClipboardCopyFormat = RichEditClipboardFormat.PlainText;
         }
 
         protected override void OnApplyTemplate()
@@ -716,7 +720,7 @@
             try
             {
                 _shouldResetScrollViewerToLastKnownPositionAfterRegainingFocus = false;
-                Document.Selection.SetIndex(TextRangeUnit.Paragraph, line, false);
+                Document.Selection.SetIndex(TextRangeUnit.Line, line, false);
                 return true;
             }
             catch

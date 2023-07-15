@@ -324,12 +324,12 @@
     <value>마지막 탭 닫으면 앱 끝내기</value>
     <comment>AdvancedPage AppLifecyclePreferenceSettings ExitingLastTabClosesWindowToggleSwitch On display text.</comment>
   </data>
-  <data name="AdvancedPage_LaunchPreferenceSettings_NewFileSuffixToggleSwitch.OffContent" xml:space="preserve">
+  <data name="AdvancedPage_LaunchPreferenceSettings_UntitledTimeStampToggleSwitch.OffContent" xml:space="preserve">
     <value>새 문서 이름만</value>
-    <comment>AdvancedPage LaunchPreferenceSettings NewFileSuffix OnOffToggleSwitch Off display text.</comment>
+    <comment>AdvancedPage LaunchPreferenceSettings UntitledTimeStamp OnOffToggleSwitch Off display text.</comment>
   </data>
-  <data name="AdvancedPage_LaunchPreferenceSettings_NewFileSuffixToggleSwitch.OnContent" xml:space="preserve">
+  <data name="AdvancedPage_LaunchPreferenceSettings_UntitledTimeStampToggleSwitch.OnContent" xml:space="preserve">
     <value>새 문서 이름 끝에 날짜시간</value>
-    <comment>AdvancedPage LaunchPreferenceSettings NewFileSuffix OnOffToggleSwitch On display text.</comment>
+    <comment>AdvancedPage LaunchPreferenceSettings UntitledTimeStamp OnOffToggleSwitch On display text.</comment>
   </data>
 </root>
