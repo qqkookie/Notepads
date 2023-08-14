@@ -153,7 +153,7 @@
 
             Window.Current.CoreWindow.Activated += OnCoreWindowActivated;
 
-            // TOTO: Added to Test
+            // _KOOKIE_: Added to Test
             MaxLength = 10000000;
             ClipboardCopyFormat = RichEditClipboardFormat.PlainText;
         }
@@ -720,6 +720,8 @@
             try
             {
                 _shouldResetScrollViewerToLastKnownPositionAfterRegainingFocus = false;
+                // _KOOKIE_: Is it right?
+                // Document.Selection.SetIndex(TextRangeUnit.Paragraph, line, false);
                 Document.Selection.SetIndex(TextRangeUnit.Line, line, false);
                 return true;
             }
